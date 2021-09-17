@@ -1,0 +1,1225 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (C) 2018 The Android Open Source Project
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">CMHY</string>
+    <string name="app_version">1.1.2 (Build 101009) </string>
+    <string name="main_text">1.1.2</string>
+
+
+    <!-- Menu strings -->
+    <string name="search_page">Searching...</string>
+    <string name="settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="deeplink">Deep Link</string>
+
+    <!-- APP BAR -->
+    <string name="search_keyword">ค้นหา...</string>
+    <string name="search_hint">ค้นหา...เชียงใหม่ (อำเภอเมือง)</string>
+    <string name="subMenuFranchise">สาขา</string>
+    <string name="subMenuNav">นำทาง</string>
+    <string name="subMenuReport">แจ้งปรับปรุงข้อมูล</string>
+
+    <!--    TEXT APP BAR MENU-->
+    <string name="appbarFav">Favorite</string>
+    <string name="appbarMap">แสดงแผนที่</string>
+    <string name="appbarNav">นำทาง</string>
+    <string name="appbarReport">แจ้งปัญหา</string>
+    <string name="appbarSetting">เพิ่มเติม</string>
+
+    <!-- Screen strings -->
+    <string name="null_text" />
+    <string name="search_text">Search</string>
+    <string name="navigate_plact_cat_destination_button">Category >> </string>
+    <string name="coming_text">Coming Soon..</string>
+    <string name="no_internet_header_text">ไม่สามารถเชื่อมต่ออินเทอร์เน็ต</string>
+    <string name="place_detail_webview_warning">แสดงผลแบบ WebView ข้อมุลผ่านเว็บ CMHY (ลิงค์จะเปิดเว็บเบราว์เซอร์)  </string>
+    <string name="no_internet_retry_text">กรุณาตรวจสอบสัญญาณ Wifi หรือ สัญญาณโทรศัพท์มือถือ</string>
+    <string name="information_text">ข้อมูลเพิ่มเติม</string>
+    <string name="textReport">ช่วยเราปรับปรุงข้อมูล</string>
+    <string name="textPlaceClose">สถานที่นี้อาจจะปิด/ย้ายแล้ว </string>
+
+    <!-- Button strings -->
+    <string name="name_map_full_button">ขยายแผนที่</string>
+    <string name="name_navigation_button">นำทาง</string>
+    <string name="name_franchise_button">สาขา</string>
+    <string name="name_more_detail_button">แสดงข้อมูลเพิ่มเติม</string>
+    <string name="name_report_button">ช่วยเราปรับปรุงข้อมูล</string>
+    <string name="name_submit_report_button">กรอกแบบฟอร์ม</string>
+    <string name="name_share_button">Share</string>
+
+    <!-- Null strings -->
+    <string name="icon_null_text">Icon</string>
+    <string name="image_null_text">Image</string>
+
+
+    <!--    About Us String-->
+    <string name="about_version_text">Version</string>
+    <string name="about_comment_text">[บริการเฉพาะเขตพื้นที่ อำเภอเมืองเชียงใหม่]**</string>
+    <string name="about_extend_amphor">**สำหรับท่านต้องการข้อมูลอำเภอนอกเหนือจากอำเภอเมือง สามารถสืบค้นและดูข้อมูลได้ที่เว็บไซต์เราที่ www.cmhy.city </string>
+
+
+    <!--    Label String-->
+    <string name="label_full_map_text">แผนที่ขนาดใหญ่</string>
+    <string name="label_setting_text">เพิ่มเติม</string>
+    <string name="label_rule_text">นโยบายการใช้งาน</string>
+    <string name="label_report_text">ช่วยเราปรับปรุง</string>
+    <string name="label_about_text">เกี่ยวกับเรา</string>
+    <string name="label_place_detail_des_text">รายละเอียดเพิ่มเติม</string>
+    <string name="search_et_text">Seach....</string>
+    <string name="internet_connection_text">Internet Connection....</string>
+
+    <!--    Ad Mob ID-->
+    <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_banner_place_list">ca-app-pub-4619737788076129/2652119195</string>
+    <string name="admob_banner_search">ca-app-pub-4619737788076129/5136265005</string>
+    <string name="admob_banner_place_detail">ca-app-pub-4619737788076129/8692366634</string>
+    <string name="admob_banner_place_category">ca-app-pub-4619737788076129/6624412972</string>
+    <string name="admob_banner_franchise_list">ca-app-pub-4619737788076129/2575239719</string>
+    <string name="admob_banner_description">ca-app-pub-4619737788076129/2865378786</string>
+    <string name="admob_interstitial">ca-app-pub-4619737788076129/7287377475</string>
+
+
+    <!--    Ad Mob TEST ID-->
+    <string name="admob_test_app_open">ca-app-pub-3940256099942544/3419835294</string>
+    <string name="admob_test_banner">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_test_Interstitial">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_test_native_advanced">ca-app-pub-3940256099942544/2247696110</string>
+
+
+    <!--  ============  TEXT MAIN CAT For Analytic=============  -->
+
+    <string name="main_cat_01">ราชการ</string>
+    <string name="main_cat_03">อาหาร</string>
+    <string name="main_cat_04">ร้านค้า</string>
+    <string name="main_cat_05">ส่วนตัว </string>
+    <string name="main_cat_06">กีฬา </string>
+    <string name="main_cat_07">การศึกษา</string>
+    <string name="main_cat_08">สุขภาพ </string>
+    <string name="main_cat_09">ที่พัก</string>
+    <string name="main_cat_10">ยานยนต์</string>
+    <string name="main_cat_11">ธุรกิจ</string>
+    <string name="main_cat_12">บริการ</string>
+    <string name="main_cat_13">การเงิน</string>
+    <string name="main_cat_14">ศาสนสถาน</string>
+    <string name="main_cat_15">ขนส่ง</string>
+    <string name="main_cat_16">ท่องเที่ยว</string>
+
+
+    <!--  ============  TEXT CATEGORY FOR PLACE LIST APPBAR =============  -->
+
+    <!--     Government-->
+    <string name="cat_23">งานราชการ</string>
+    <string name="cat_10">สำนักงานรัฐ</string>
+    <string name="cat_116">สถานกงสุล</string>
+    <string name="cat_12">ไปรษณีย์ไทย</string>
+    <string name="cat_4">สถานีดับเพลิง</string>
+    <string name="cat_11">สถานีตำรวจ</string>
+
+    <!--     Food-->
+    <string name="cat_24">ก๋วยเตี๋ยว</string>
+    <string name="cat_148">บุฟเฟ่ต์</string>
+    <string name="cat_26">เบเกอรี่</string>
+    <string name="cat_27">กาแฟ/คาเฟ่</string>
+    <string name="cat_28">อาหารตามสั่ง</string>
+    <string name="cat_152">อาหารทั่วไป</string>
+    <string name="cat_30">ฟาสฟู๊ด</string>
+    <string name="cat_124">ข้าวซอย</string>
+    <string name="cat_147">เครื่องดื่ม</string>
+    <string name="cat_25">ปิ้งย่าง</string>
+    <string name="cat_149">อาหารนานาชาติ </string>
+    <string name="cat_100">อาหารพื้นเมือง </string>
+    <string name="cat_150">มังสวิรัติ </string>
+    <string name="cat_165">อาหารฮาลาล </string>
+    <string name="cat_164">อาหารปักษ์ใต้ </string>
+    <string name="cat_166">ไอศครีม </string>
+    <string name="cat_231">ขนมจีน </string>
+    <string name="cat_29">ของว่าง </string>
+    <string name="cat_204">ข้าวต้ม-โจ๊ก </string>
+    <string name="cat_205">อาหารอีสาน </string>
+    <string name="cat_212">สเต็ก </string>
+    <string name="cat_208">คาเฟ่ 24HR </string>
+    <string name="cat_220">ผัดไทย </string>
+    <string name="cat_216">ชาบู/สุกี </string>
+    <string name="cat_229">หม่าล่า </string>
+    <string name="cat_237">ชานมไข่มุก </string>
+    <string name="cat_238">ลูกชิ้น </string>
+    <string name="cat_248">เบอร์เกอร์ </string>
+    <string name="cat_247">พิซซ่า </string>
+    <string name="cat_17">อาหารญี่ปุ่น </string>
+    <string name="cat_233">คาเฟ่สัตว์เลี้ยง </string>
+
+    <!--    SHOP-->
+    <string name="cat_31">ตลาด</string>
+    <string name="cat_18">มินิมาร์ท</string>
+    <string name="cat_32">ขายของชำ</string>
+    <string name="cat_8">ซุปเปอร์มาร์เกต</string>
+    <string name="cat_93">เซเว่นอีเลเว่น</string>
+    <string name="cat_34">วัตถุดิบทั่วไป</string>
+    <string name="cat_155">ชอปปิ้งมอลล์</string>
+    <string name="cat_187">อาหารแช่แช็ง</string>
+    <string name="cat_162">ไก่ห้าดาว</string>
+    <string name="cat_156">ตลาดนัด</string>
+    <string name="cat_163">คอมมูนิตี้มอลล์</string>
+    <string name="cat_218">อาหารสด</string>
+    <string name="cat_239">สตรีทฟู้ด</string>
+    <string name="cat_244">ร้านขายข้าว</string>
+    <string name="cat_243">ผลไม้</string>
+
+    <!--    Personal-->
+    <string name="cat_35">เสริมสวย</string>
+    <string name="cat_102">เสื้อผ้าสตรี</string>
+    <string name="cat_36">นวดและสปา</string>
+    <string name="cat_37">ตัดผมชาย</string>
+    <string name="cat_38">เครื่องสำอางค์</string>
+    <string name="cat_123">เสื้อผ้ามือสอง</string>
+    <string name="cat_153">ตัดเสื้อ</string>
+    <string name="cat_154">เครื่องแต่งกาย</string>
+    <string name="cat_197">ชุดเช่า</string>
+    <string name="cat_199">แม่และเด็ก</string>
+    <string name="cat_228">รองเท้า</string>
+
+    <!--    SPORT-->
+    <string name="cat_40">อุปกรณ์กีฬา</string>
+    <string name="cat_41">เทนนิส</string>
+    <string name="cat_42">ฟุตบอล</string>
+    <string name="cat_43">ฟิตเนส</string>
+    <string name="cat_44">สระว่ายน้ำ</string>
+    <string name="cat_201">แบดมินตัน</string>
+    <string name="cat_213">โยคะ</string>
+    <string name="cat_214">สนุกเกอร์</string>
+    <string name="cat_215">มวยไทย</string>
+    <string name="cat_250">ออกกำลังกาย</string>
+    <string name="cat_249">บอร์ดเกม</string>
+    <string name="cat_47">กีฬาอื่นๆ</string>
+
+    <!--    EDUCATION-->
+    <string name="cat_175">อนุบาล</string>
+    <string name="cat_168">โรงเรียน</string>
+    <string name="cat_169">วิทยาลัย</string>
+    <string name="cat_174">มหาวิทยาลัย</string>
+    <string name="cat_211">มหาวิทยาลัยเชียงใหม่</string>
+    <string name="cat_122">สถาบันการสอน</string>
+    <string name="cat_176">กวดวิชา</string>
+    <string name="cat_144">ห้องสมุด</string>
+    <string name="cat_256">ดนตรี/เต้น</string>
+
+    <!--    HEALTH-->
+    <string name="cat_114">โรงพยาบาล</string>
+    <string name="cat_99">รักษาทั่วไป</string>
+    <string name="cat_51">รักษาตา</string>
+    <string name="cat_50">รักษาฟัน</string>
+    <string name="cat_179">กระดูกและข้อ</string>
+    <string name="cat_178">หูคอจมูก</string>
+    <string name="cat_202">สูติ-นารีเเวช</string>
+    <string name="cat_203">กุมารเวช</string>
+    <string name="cat_181">จิตเวช</string>
+    <string name="cat_48">คลินิกความงาม</string>
+    <string name="cat_180">แพทย์แผนไทย</string>
+    <string name="cat_177">แล็ปสุขภาพ</string>
+    <string name="cat_49">ขายยา</string>
+    <string name="cat_111">แว่นตา</string>
+    <string name="cat_217">ผิวหนัง</string>
+    <string name="cat_53">สุขภาพอื่นๆ</string>
+    <string name="cat_52">รักษาสัตว์</string>
+    <string name="cat_226">รพ.สวนดอก</string>
+    <string name="cat_232">สมุนไพร</string>
+
+    <!--    ROOM-->
+    <string name="cat_94">เกสท์เฮาส์</string>
+    <string name="cat_56">โฮสเทล</string>
+    <string name="cat_57">โรงแรม</string>
+    <string name="cat_59">อพาร์ทเมนท์</string>
+    <string name="cat_55">ห้องเช่า หอพัก</string>
+    <string name="cat_193">หมู่บ้านจัดสรร</string>
+    <string name="cat_58">คอนโดมีเนียม</string>
+    <string name="cat_182">รีสอร์ท</string>
+    <string name="cat_84">อื่นๆ</string>
+
+    <!--  AUTO-->
+    <string name="cat_113">ปั๊มน้ำมัน</string>
+    <string name="cat_120">ปั๊มแก๊ส</string>
+    <string name="cat_64">ซ่อมรถยนต์</string>
+    <string name="cat_68">โชว์รูมรถยนต์</string>
+    <string name="cat_146">ซ่อมมอเตอร์ไซค์</string>
+    <string name="cat_127">โชว์รูมมอเตอร์ไซต์</string>
+    <string name="cat_61">ยาง</string>
+    <string name="cat_63">ประดับยนต์</string>
+    <string name="cat_67">รถให้เช่า</string>
+    <string name="cat_66">รถมือสอง</string>
+    <string name="cat_65">ล้างอัดฉีด</string>
+    <string name="cat_83">บริการยานยนต์</string>
+    <string name="cat_70">จักรยาน</string>
+    <string name="cat_224">อะไหล่ยนต์</string>
+    <string name="cat_245">ปั๊มหยอดเหรียญ</string>
+    <string name="cat_251">สถานีชาร์จ</string>
+
+    <!--     BUSINESS-->
+
+    <string name="cat_195">สินค้าเบ็ดเตล็ด</string>
+    <string name="cat_234">กิ๊ฟช็อป</string>
+    <string name="cat_235">นาฬิกา</string>
+    <string name="cat_236">ของเล่น</string>
+    <string name="cat_95">ถ่ายภาพ</string>
+    <string name="cat_222">อุปกรณ์มือถือ</string>
+    <string name="cat_206">คอมพิวเตอร์</string>
+    <string name="cat_16">อุปกรณ์ไฟฟ้า</string>
+    <string name="cat_223">กรอบรูป</string>
+    <string name="cat_62">กุญแจ</string>
+    <string name="cat_72">ดนตรี</string>
+    <string name="cat_15">เฟอร์นิเจอร์</string>
+    <string name="cat_19">ตกแต่งภายใน</string>
+    <string name="cat_73">เครื่องเขียน</string>
+    <string name="cat_74">ก่อสร้าง</string>
+    <string name="cat_13">วัสดุภัณฑ์</string>
+    <string name="cat_79">ถ่ายเอกสาร</string>
+    <string name="cat_78">แปลภาษา</string>
+    <string name="cat_121">หนังสือ</string>
+    <string name="cat_80">สิ่งพิมพ์</string>
+    <string name="cat_81">อุปกรณ์ช่าง</string>
+    <string name="cat_118">การเกษตร</string>
+    <string name="cat_119">ดอกไม้</string>
+    <string name="cat_14">ตกแต่งสวน</string>
+    <string name="cat_196">เครื่องครัว</string>
+    <string name="cat_75">เครื่องประดับ</string>
+    <string name="cat_125">สังฆภัณฑ์</string>
+    <string name="cat_82">ธุรกิจทั่วไป</string>
+    <string name="cat_255">โกดังญี่ปุ่น</string>
+    <string name="cat_22">ที่พักอาศัย</string>
+
+    <!--   SERVICES-->
+    <string name="cat_109">พัสดุเอกชน</string>
+    <string name="cat_173">เอไอเอส</string>
+    <string name="cat_171">ทรูเซอร์วิส</string>
+    <string name="cat_170">ดีแทค</string>
+    <string name="cat_145">ศูนย์บริการ</string>
+    <string name="cat_126">ซักอบรีด</string>
+    <string name="cat_2">ประปา</string>
+    <string name="cat_183">อาบน้ำสัตว์</string>
+    <string name="cat_184">อุปกรณ์สัตว์</string>
+    <string name="cat_200">บัญชี-ภาษี</string>
+    <string name="cat_172">รักษาความปลอดภัย</string>
+    <string name="cat_198">เวดดิ้งสตูดิโอ</string>
+    <string name="cat_77">บริการงานช่าง</string>
+    <string name="cat_87">อาร์ตแกลเลอรี่</string>
+    <string name="cat_185">ประกันภัย</string>
+    <string name="cat_115">บริการห้องน้ำ</string>
+    <string name="cat_186">บริการจอดรถ</string>
+    <string name="cat_110">ตู้ซักผ้าเหรียญ</string>
+    <string name="cat_194">ตู้น้ำหยอดเหรียญ</string>
+    <string name="cat_240">หวยลลากกินแบ่ง</string>
+    <string name="cat_207">ซอฟท์แวร์</string>
+    <string name="cat_76">ทนาย</string>
+    <string name="cat_209">ส่งแก๊ส</string>
+    <string name="cat_219">ร้านเกม/เนต</string>
+    <string name="cat_225">มูลนิธิ</string>
+    <string name="cat_227">โรงภาพยนตร์</string>
+    <string name="cat_230">โคเวิร์คกิ้งสเปซ</string>
+    <string name="cat_242">น้ำแข็ง</string>
+    <string name="cat_241">รีไซเคิล</string>
+    <string name="cat_7">พิพิธภัณฑ์</string>
+    <string name="cat_108">ตู้ไปรษณีย์</string>
+    <string name="cat_86">บริการทั่วไป</string>
+
+    <!--    FINANCE-->
+    <string name="cat_129">ธนาคาร ไทยพาณิชย์</string>
+    <string name="cat_128">ธนาคาร กรุงเทพ</string>
+    <string name="cat_130">ธนาคาร กรุงไทย</string>
+    <string name="cat_132">ธนาคาร กรุงศรีอยุธยา</string>
+    <string name="cat_133">ธนาคาร ออมสิน</string>
+    <string name="cat_135">ธนาคาร กสิกรไทย</string>
+    <string name="cat_188">ธนาคาร อิสลาม</string>
+    <string name="cat_189">ธนาคาร ธกส</string>
+    <string name="cat_190">ธนาคาร ยูโอบี</string>
+    <string name="cat_191">ธนาคาร ซีไอเอ็มบี</string>
+    <string name="cat_261">ธนาคาร ทีเอ็มบีธนชาต</string>
+    <string name="cat_253">ธนาคาร ธ.อ.ส</string>
+    <string name="cat_252">ธนาคาร ไทยเครดิต</string>
+    <string name="cat_89">ธนาคารอื่นๆ</string>
+    <string name="cat_91">แลกเปลี่ยนเงิน</string>
+    <string name="cat_192">สินเชื่อ</string>
+    <string name="cat_92">ธุรกรรมการเงิน</string>
+    <string name="cat_136">ATM ไทยพาณิชย์</string>
+    <string name="cat_137">ATM กรุงเทพ</string>
+    <string name="cat_138">ATM กรุงไทย</string>
+    <string name="cat_141">ATM กรุงศรีอยุธยา</string>
+    <string name="cat_143">ATM ออมสิน</string>
+    <string name="cat_139">ATM กสิกรไทย</string>
+    <string name="cat_260">ATM ธกส.</string>
+    <string name="cat_257">ATM ธ.อิสลาม</string>
+    <string name="cat_258">ATM ยูโอบี</string>
+    <string name="cat_259">ATM ซีไอเอ็มบี</string>
+    <string name="cat_262">ATM ทีเอ็มบีธนชาต</string>
+    <string name="cat_90">ATM อื่นๆ</string>
+
+
+    <!--     RELIGION-->
+    <string name="cat_97">วัด</string>
+    <string name="cat_98">โบสถ์</string>
+    <string name="cat_112">มัสยิด</string>
+    <string name="cat_254">ศาสนสถาน</string>
+    <string name="cat_160">สุสาน</string>
+
+    <!--    TRANSPORT-->
+    <string name="cat_107">อาเขต/ขายตั๋ว</string>
+    <string name="cat_117">ท่าคิวรถ</string>
+    <string name="cat_246">รถเมล์</string>
+    <string name="cat_104">รถไฟ</string>
+    <string name="cat_106">สนามบิน</string>
+    <string name="cat_105">ขนส่งสินค้า</string>
+    <string name="cat_161">เอนี่วีลไบค์</string>
+
+    <!--TRAVEL-->
+    <string name="cat_221">ท่องเที่ยว</string>
+    <string name="cat_158">ไหว้พระเก้าวัด</string>
+    <string name="cat_159">สวนสาธารณะ</string>
+    <string name="cat_210">เวียงกุมกาม</string>
+
+
+    <!--  ============  TEXT CATEGORY FOR PLACE CATEGORY BUTT APPBAR =============  -->
+
+    x
+
+    <!--    Code ID Name-->
+
+    <string name="main_cat_government">ราชการ</string>
+    <string name="main_cat_food">อาหาร</string>
+    <string name="main_cat_store">ร้านค้า</string>
+    <string name="main_cat_personal">ส่วนตัว </string>
+    <string name="main_cat_sport">กีฬา </string>
+    <string name="main_cat_education">การศึกษา</string>
+    <string name="main_cat_health">สุขภาพ </string>
+    <string name="main_cat_room">ที่พัก</string>
+    <string name="main_cat_auto">ยานยนต์</string>
+    <string name="main_cat_bussiness">ธุรกิจ</string>
+    <string name="main_cat_services">บริการ</string>
+    <string name="main_cat_finance">การเงิน</string>
+    <string name="main_cat_religion">ศาสนสถาน</string>
+    <string name="main_cat_transport">ขนส่ง</string>
+    <string name="main_cat_travel">ท่องเที่ยว</string>
+
+
+    <string-array name="cat_main_id">
+        <item>01</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+    <!--    Name-->
+    <string-array name="cat_main_name">
+        <item>งานราชการ</item>
+        <item>อาหาร</item>
+        <item>ร้านค้า</item>
+        <item>ส่วนตัว</item>
+        <item>กีฬา</item>
+        <item>การศึกษา</item>
+        <item>สุขภาพ</item>
+        <item>ห้องพัก</item>
+        <item>ยานยนต์</item>
+        <item>ธุรกิจ</item>
+        <item>บริการ</item>
+        <item>การเงิน</item>
+        <item>ศาสนา</item>
+        <item>ขนส่ง</item>
+        <item>ท่องเที่ยว</item>
+
+    </string-array>
+
+
+    <!--    //CatId 01 Government//arrayOf("0100", "0101", "0102", "0104", "0105", "0106")-->
+
+    <!--    Code ID-->
+    <string-array name="cat_government_id">
+        <item>23</item>
+        <item>10</item>
+        <item>116</item>
+        <item>12</item>
+        <item>4</item>
+        <item>11</item>
+    </string-array>
+    <!--    Name-->
+    <string-array name="cat_government_name">
+        <item>งานราชการ</item>
+        <item>สำนักงานรัฐ</item>
+        <item>สถานกงสุล</item>
+        <item>ไปรษณีย์ไทย</item>
+        <item>สถานีดับเพลิง</item>
+        <item>สถานีตำรวจ</item>
+    </string-array>
+
+
+    <!--   CatId 02 Food arrayOf("24", "148", "26", "27", "28", "152", "30", "124", "147", "25", "149", "100", "150", "165", "164",-->
+    <!--    "166", "231", "29", "204", "205", "212", "208", "220", "216", "229", "237", "238", "248", "247","17")-->
+
+    <!--    Code ID-->
+    <string-array name="cat_food_id">
+        <item>24</item>
+        <item>148</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>152</item>
+        <item>30</item>
+        <item>124</item>
+        <item>147</item>
+        <item>25</item>
+        <item>149</item>
+        <item>100</item>
+        <item>150</item>
+        <item>165</item>
+        <item>164</item>
+        <item>166</item>
+        <item>231</item>
+        <item>29</item>
+        <item>204</item>
+        <item>205</item>
+        <item>212</item>
+        <item>208</item>
+        <item>220</item>
+        <item>216</item>
+        <item>229</item>
+        <item>237</item>
+        <item>238</item>
+        <item>248</item>
+        <item>247</item>
+        <item>17</item>
+        <item>233</item>
+    </string-array>
+
+    <!--    Name-->
+    <string-array name="cat_food_name">
+        <item>ก๋วยเตี๋ยว</item>
+        <item>บุฟเฟ่ต์</item>
+        <item>เบเกอรี่</item>
+        <item>กาแฟ</item>
+        <item>อาหารตามสั่ง</item>
+        <item>อาหารทั่วไป</item>
+        <item>ฟาสฟู๊ด</item>
+        <item>ข้าวซอย</item>
+        <item>เครื่องดื่ม</item>
+        <item>ปิ้งย่าง</item>
+        <item>อาหารนานาชาติ</item>
+        <item>อาหารพื้นเมือง</item>
+        <item>มังสวิรัติ</item>
+        <item>อาหารฮาลาล</item>
+        <item>อาหารปักษ์ใต้</item>
+        <item>ไอศครีม</item>
+        <item>ขนมจีน</item>
+        <item>ของว่าง</item>
+        <item>ข้าวต้ม-โจ๊ก</item>
+        <item>อาหารอีสาน</item>
+        <item>สเต็ก</item>
+        <item>คาเฟ่ 24HR</item>
+        <item>ผัดไทย</item>
+        <item>ชาบู/สุกี</item>
+        <item>หม่าล่า</item>
+        <item>ชานมไข่มุก</item>
+        <item>ลูกชิ้น</item>
+        <item>เบอร์เกอร์</item>
+        <item>พิซซ่า</item>
+        <item>อาหารญี่ปุ่น</item>
+        <item>คาเฟ่สัตว์เลี้ยง</item>
+    </string-array>
+
+    <!--  CatId  "04" SHOP -> {-->
+    <!--    arrayOf("31", "18", "32", "8", "93", "34", "155", "187", "162", "156", "163", "218", "239", "244", "243")-->
+    <!--    }-->
+    <string-array name="cat_shop_id">
+        <item>31</item>
+        <item>18</item>
+        <item>32</item>
+        <item>8</item>
+        <item>93</item>
+        <item>34</item>
+        <item>155</item>
+        <item>187</item>
+        <item>162</item>
+        <item>156</item>
+        <item>163</item>
+        <item>218</item>
+        <item>239</item>
+        <item>244</item>
+        <item>243</item>
+    </string-array>
+
+    <!--    Name-->
+    <string-array name="cat_shop_name">
+        <item>ตลาด</item>
+        <item>มินิมาร์ท</item>
+        <item>ขายของชำ</item>
+        <item>ซุปเปอร์มาร์เกต</item>
+        <item>เซเว่นอีเลเว่น</item>
+        <item>วัตถุดิบทั่วไป</item>
+        <item>ชอปปิ้งมอลล์</item>
+        <item>อาหารแช่แช็ง</item>
+        <item>ไก่ห้าดาว</item>
+        <item>ตลาดนัด</item>
+        <item>คอมมูนิตี้มอลล์</item>
+        <item>อาหารสด</item>
+        <item>สตรีทฟู้ด</item>
+        <item>ขายข้าว</item>
+        <item>ผลไม้</item>
+    </string-array>
+
+
+    <!--    "05" Personal -> {-->
+    <!--    arrayOf("35", "102", "36", "37", "38", "123", "153", "154", "197", "199", "228")-->
+    <!--    }-->
+
+    <string-array name="cat_personal_id">
+        <item>35</item>
+        <item>102</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>123</item>
+        <item>153</item>
+        <item>154</item>
+        <item>197</item>
+        <item>199</item>
+        <item>228</item>
+    </string-array>
+
+    <!--    Name-->
+    <string-array name="cat_personal_name">
+        <item>เสริมสวย</item>
+        <item>เสื้อผ้าสตรี</item>
+        <item>นวดและสปา</item>
+        <item>ตัดผมชาย</item>
+        <item>เครื่องสำอางค์</item>
+        <item>เสื้อผ้ามือสอง</item>
+        <item>ตัดเสื้อ</item>
+        <item>เครื่องแต่งกาย</item>
+        <item>ชุดเช่า</item>
+        <item>แม่และเด็ก</item>
+        <item>รองเท้า</item>
+    </string-array>
+
+
+    <!--    "06" Sport-> {-->
+    <!--    arrayOf("47", "40", "41", "42", "43", "44", "201", "213", "214", "215","250","249")-->
+    <!--    }-->
+
+    <string-array name="cat_sport_id">
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>201</item>
+        <item>213</item>
+        <item>214</item>
+        <item>215</item>
+        <item>250</item>
+        <item>249</item>
+        <item>47</item>
+    </string-array>
+
+    <!--    Name-->
+    <string-array name="cat_sport_name">
+
+        <item>อุปกรณ์กีฬา</item>
+        <item>เทนนิส</item>
+        <item>ฟุตบอล</item>
+        <item>ฟิตเนส</item>
+        <item>สระว่ายน้ำ</item>
+        <item>แบดมินตัน</item>
+        <item>โยคะ</item>
+        <item>สนุกเกอร์</item>
+        <item>มวยไทย</item>
+        <item>ออกกำลังกาย</item>
+        <item>บอร์ดเกม</item>
+        <item>กีฬาอื่นๆ</item>
+    </string-array>
+
+
+    <!--    "07" Education-> {-->
+    <!--    arrayOf("122", "144", "176", "175", "169", "168", "174", "211", "256")-->
+    <!--    }-->
+    <string-array name="cat_education_id">
+        <item>175</item>
+        <item>168</item>
+        <item>169</item>
+        <item>174</item>
+        <item>211</item>
+        <item>122</item>
+        <item>176</item>
+        <item>144</item>
+        <item>256</item>
+    </string-array>
+
+    <!--    Name-->
+    <string-array name="cat_education_name">
+        <item>อนุบาล</item>
+        <item>โรงเรียน</item>
+        <item>วิทยาลัย</item>
+        <item>มหาวิทยาลัย</item>
+        <item>ม.ช.</item>
+        <item>สถาบันการสอน</item>
+        <item>กวดวิชา</item>
+        <item>ห้องสมุด</item>
+        <item>ดนตรี/เต้น</item>
+    </string-array>
+
+    <!--    "08" -> Health {-->
+    <!--    arrayOf("53", "48", "99", "49", "50", "51", "111", "52", "114", "181", "180", "179", "178", "177", "202",-->
+    <!--    "203", "217", "232", "226")-->
+    <!--    }-->
+
+    <string-array name="cat_health_id">
+        <item>114</item>
+        <item>99</item>
+        <item>51</item>
+        <item>50</item>
+        <item>179</item>
+        <item>178</item>
+        <item>202</item>
+        <item>203</item>
+        <item>181</item>
+        <item>48</item>
+        <item>180</item>
+        <item>177</item>
+        <item>49</item>
+        <item>111</item>
+        <item>217</item>
+        <item>53</item>
+        <item>52</item>
+        <item>226</item>
+        <item>232</item>
+    </string-array>
+
+    <!--    Name-->
+    <string-array name="cat_health_name">
+        <item>โรงพยาบาล</item>
+        <item>รักษาทั่วไป</item>
+        <item>รักษาตา</item>
+        <item>รักษาฟัน</item>
+        <item>กระดูกและข้อ</item>
+        <item>หูคอจมูก</item>
+        <item>สูติ-นารีเเวช</item>
+        <item>กุมารเวช</item>
+        <item>จิตเวช</item>
+        <item>คลินิกความงาม</item>
+        <item>แพทย์แผนไทย</item>
+        <item>แล็ปสุขภาพ</item>
+        <item>ขายยา</item>
+        <item>แว่นตา</item>
+        <item>ผิวหนัง</item>
+        <item>สุขภาพอื่นๆ</item>
+        <item>รักษาสัตว์</item>
+        <item>รพ.สวนดอก</item>
+        <item>สมุนไพร</item>
+    </string-array>
+
+
+    <!--    "09" -> Hotel {-->
+    <!--    arrayOf("84", "94", "56", "57", "59", "55", "193", "58", "182")-->
+    <!--    }-->
+
+    <string-array name="cat_room_id">
+        <item>94</item>
+        <item>56</item>
+        <item>57</item>
+        <item>59</item>
+        <item>55</item>
+        <item>193</item>
+        <item>58</item>
+        <item>182</item>
+        <item>84</item>
+    </string-array>
+
+    <!--    Name-->
+    <string-array name="cat_room_name">
+
+        <item>เกสท์เฮาส์</item>
+        <item>โฮสเทล</item>
+        <item>โรงแรม</item>
+        <item>อพาร์ทเมนท์</item>
+        <item>ห้องเช่า หอพัก</item>
+        <item>หมู่บ้านจัดสรร</item>
+        <item>คอนโดมีเนียม</item>
+        <item>รีสอร์ท</item>
+        <item>อื่นๆ</item>
+    </string-array>
+
+
+    <!--    "10" Auto-> {-->
+    <!--    arrayOf("68", "61", "66", "64", "65", "113", "67", "63", "70", "120", "127", "146", "83", "224", "245", "251")-->
+    <!--    }-->
+
+    <string-array name="cat_auto_id">
+        <item>113</item>
+        <item>120</item>
+        <item>64</item>
+        <item>68</item>
+        <item>146</item>
+        <item>127</item>
+        <item>61</item>
+        <item>63</item>
+        <item>67</item>
+        <item>66</item>
+        <item>65</item>
+        <item>83</item>
+        <item>70</item>
+        <item>224</item>
+        <item>245</item>
+        <item>251</item>
+    </string-array>
+
+    <!--    Name-->
+    <string-array name="cat_auto_name">
+        <item>ปั๊มน้ำมัน</item>
+        <item>ปั๊มแก๊ส</item>
+        <item>ซ่อมรถยนต์</item>
+        <item>โชว์รูมรถยนต์</item>
+        <item>ซ่อมมอเตอร์ไซค์</item>
+        <item>มอเตอร์ไซต์</item>
+        <item>ยาง</item>
+        <item>ประดับยนต์</item>
+        <item>รถให้เช่า</item>
+        <item>รถมือสอง</item>
+        <item>ล้างอัดฉีด</item>
+        <item>บริการยานยนต์</item>
+        <item>จักรยาน</item>
+        <item>อะไหล่ยนต์</item>
+        <item>ปั๊มหยอดเหรียญ</item>
+        <item>สถานีชาร์จ</item>
+    </string-array>
+
+
+    <!--    "11" ->  Business{-->
+    <!--    arrayOf("82", "73", "74", "75", "78", "79", "80", "81", "95", "62", "119", "118",-->
+    <!--    "72", "125", "121", "196", "195", "19", "22", "13", "14", "16", "206", "223",-->
+    <!--    "222", "15", "234", "235", "236", "255")-->
+    <!--    }-->
+
+    <string-array name="cat_business_id">
+        <item>195</item>
+        <item>234</item>
+        <item>235</item>
+        <item>236</item>
+        <item>95</item>
+        <item>222</item>
+        <item>206</item>
+        <item>16</item>
+        <item>223</item>
+        <item>62</item>
+        <item>72</item>
+        <item>15</item>
+        <item>19</item>
+        <item>73</item>
+        <item>74</item>
+        <item>13</item>
+        <item>79</item>
+        <item>78</item>
+        <item>121</item>
+        <item>80</item>
+        <item>81</item>
+        <item>118</item>
+        <item>119</item>
+        <item>14</item>
+        <item>196</item>
+        <item>75</item>
+        <item>125</item>
+        <item>82</item>
+        <item>255</item>
+        <item>22</item>
+    </string-array>
+
+    <!--    Name-->
+    <string-array name="cat_business_name">
+        <item>สินค้าเบ็ดเตล็ด</item>
+        <item>กิ๊ฟช็อป</item>
+        <item>นาฬิกา</item>
+        <item>ของเล่น</item>
+        <item>ถ่ายภาพ</item>
+        <item>อุปกรณ์มือถือ</item>
+        <item>คอมพิวเตอร์</item>
+        <item>อุปกรณ์ไฟฟ้า</item>
+        <item>กรอบรูป</item>
+        <item>กุญแจ</item>
+        <item>ดนตรี</item>
+        <item>เฟอร์นิเจอร์</item>
+        <item>ตกแต่งภายใน</item>
+        <item>เครื่องเขียน</item>
+        <item>ก่อสร้าง</item>
+        <item>วัสดุภัณฑ์</item>
+        <item>ถ่ายเอกสาร</item>
+        <item>แปลภาษา</item>
+        <item>หนังสือ</item>
+        <item>สิ่งพิมพ์</item>
+        <item>อุปกรณ์ช่าง</item>
+        <item>การเกษตร</item>
+        <item>ดอกไม้</item>
+        <item>ตกแต่งสวน</item>
+        <item>เครื่องครัว</item>
+        <item>เครื่องประดับ</item>
+        <item>สังฆภัณฑ์</item>
+        <item>ทั่วไป</item>
+        <item>โกดังญี่ปุ่น</item>
+        <item>ที่พักอาศัย</item>
+    </string-array>
+
+
+    <!--    "12" ->  Services {-->
+    <string-array name="cat_services_id">
+        <item>109</item>
+        <item>173</item>
+        <item>171</item>
+        <item>170</item>
+        <item>145</item>
+        <item>126</item>
+        <item>2</item>
+        <item>183</item>
+        <item>184</item>
+        <item>200</item>
+        <item>172</item>
+        <item>198</item>
+        <item>77</item>
+        <item>87</item>
+        <item>185</item>
+        <item>115</item>
+        <item>186</item>
+        <item>110</item>
+        <item>194</item>
+        <item>240</item>
+        <item>207</item>
+        <item>76</item>
+        <item>209</item>
+        <item>219</item>
+        <item>225</item>
+        <item>227</item>
+        <item>230</item>
+        <item>242</item>
+        <item>241</item>
+        <item>7</item>
+        <item>108</item>
+        <item>86</item>
+
+    </string-array>
+
+    <!--    Name-->
+    <string-array name="cat_service_name">
+        <item>พัสดุเอกชน</item>
+        <item>เอไอเอส</item>
+        <item>ทรู</item>
+        <item>ดีแทค</item>
+        <item>ศูนย์บริการ</item>
+        <item>ซักอบรีด</item>
+        <item>ประปา</item>
+        <item>อาบน้ำสัตว์</item>
+        <item>อุปกรณ์สัตว์</item>
+        <item>บัญชี-ภาษี</item>
+        <item>รปภ.</item>
+        <item>เวดดิ้งสตูดิโอ</item>
+        <item>บริการงานช่าง</item>
+        <item>อาร์ตแกลเลอรี่</item>
+        <item>ประกันภัย</item>
+        <item>บริการห้องน้ำ</item>
+        <item>บริการจอดรถ</item>
+        <item>ตู้ซักผ้าเหรียญ</item>
+        <item>ตู้น้ำเหรียญ</item>
+        <item>หวย</item>
+        <item>ซอฟท์แวร์</item>
+        <item>ทนาย</item>
+        <item>ส่งแก๊ส</item>
+        <item>ร้านเกม/เนต</item>
+        <item>มูลนิธิ</item>
+        <item>โรงภาพยนตร์</item>
+        <item>โคเวิร์คกิ้งสเปซ</item>
+        <item>น้ำแข็ง</item>
+        <item>รีไซเคิล</item>
+        <item>พิพิธภัณฑ์</item>
+        <item>ตู้ไปรษณีย์</item>
+        <item>บริการทั่วไป</item>
+    </string-array>
+
+    <!--    -->
+    <!--    "13" Finance-> {-->
+    <!--    arrayOf("89", "90", "91", "128", "130", "135", "131", "129", "132", "133", "188", "189", "190", "134",-->
+    <!--    "191", "252", "253", "137", "138", "139", "140", "136", "141", "143", "90", "90", "90", "142", "90", "192")-->
+    <!--    }-->
+
+    <string-array name="cat_finance_id">
+        <item>129</item>
+        <item>128</item>
+        <item>130</item>
+        <item>132</item>
+        <item>133</item>
+        <item>135</item>
+        <item>188</item>
+        <item>189</item>
+        <item>190</item>
+        <item>191</item>
+        <item>261</item>
+        <item>253</item>
+        <item>252</item>
+        <item>89</item>
+        <item>91</item>
+        <item>192</item>
+        <item>92</item>
+        <item>136</item>
+        <item>137</item>
+        <item>138</item>
+        <item>141</item>
+        <item>143</item>
+        <item>139</item>
+        <item>260</item>
+        <item>257</item>
+        <item>258</item>
+        <item>259</item>
+        <item>262</item>
+        <item>90</item>
+    </string-array>
+
+    <!--    Name-->
+    <string-array name="cat_finance_name">
+
+        <item>ไทยพาณิชย์</item>
+        <item>กรุงเทพ</item>
+        <item>กรุงไทย</item>
+        <item>กรุงศรีอยุธยา</item>
+        <item>ออมสิน</item>
+        <item>กสิกรไทย</item>
+        <item>อิสลาม</item>
+        <item>ธกส</item>
+        <item>ยูโอบี</item>
+        <item>ซีไอเอ็มบี</item>
+        <item>ทีเอ็มบีธนชาต</item>
+        <item>ธ.อ.ส</item>
+        <item>ไทยเครดิต</item>
+        <item>ธนาคารอื่นๆ</item>
+        <item>แลกเปลี่ยนเงิน</item>
+        <item>สินเชื่อ</item>
+        <item>ธุรกรรมการเงิน</item>
+        <item>ไทยพาณิชย์</item>
+        <item>กรุงเทพ</item>
+        <item>กรุงไทย</item>
+        <item>กรุงศรีอยุธยา</item>
+        <item>ออมสิน</item>
+        <item>กสิกรไทย</item>
+        <item>ธกส.</item>
+        <item>อิสลาม</item>
+        <item>ยูโอบี</item>
+        <item>ซีไอเอ็มบี</item>
+        <item>ทีเอ็มบีธนชาต</item>
+        <item>อื่นๆ </item>
+    </string-array>
+
+
+    <!--    "14" -> Region {-->
+    <!--    arrayOf("97", "98", "112", "254", "160")-->
+    <!--    }-->
+    <string-array name="cat_religion_id">
+        <item>97</item>
+        <item>98</item>
+        <item>112</item>
+        <item>254</item>
+        <item>160</item>
+    </string-array>
+
+    <!--    Name-->
+    <string-array name="cat_religion_name">
+        <item>วัด</item>
+        <item>โบสถ์</item>
+        <item>มัสยิด</item>
+        <item>ศาสนสถาน</item>
+        <item>สุสาน</item>
+    </string-array>
+
+
+    <!--    "15" -> transport {-->
+    <!--    arrayOf("107", "106", "104", "117", "105", "161", "246")-->
+    <!--    }-->
+
+    <string-array name="cat_transport_id">
+        <item>107</item>
+        <item>117</item>
+        <item>246</item>
+        <item>104</item>
+        <item>106</item>
+        <item>105</item>
+        <item>161</item>
+    </string-array>
+    <!--    Name-->
+    <string-array name="cat_transport_name">
+        <item>อาเขต/ขายตั๋ว</item>
+        <item>ท่าคิวรถ</item>
+        <item>รถเมล์</item>
+        <item>รถไฟ</item>
+        <item>สนามบิน</item>
+        <item>ขนส่งสินค้า</item>
+        <item>เอนี่วีลไบค์</item>
+
+    </string-array>
+
+
+    <!--    "16" -> Travel {-->
+    <!--    arrayOf("210", "159", "158", "221")-->
+    <!--    }-->
+    <string-array name="cat_travel_id">
+        <item>221</item>
+        <item>158</item>
+        <item>159</item>
+        <item>210</item>
+    </string-array>
+
+    <!--    Name-->
+    <string-array name="cat_travel_name">
+        <item>ท่องเที่ยว</item>
+        <item>ไหว้พระเก้าวัด</item>
+        <item>สวนสาธารณะ</item>
+        <item>เวียงกุมกาม</item>
+
+
+    </string-array>
+
+
+    <!--    ========== BEGIN  REPORT DOCUMENT ========-->
+    <string name="report_document"><![CDATA[
+    <h1>ปรับปรุงข้อมูล / รายงานปัญหา</h1>
+    <p>**<b>ทางทีมงานเราสองคนผู้พัฒนาระบบ</b> ต้องกราบขออภัยหามีข้อผิดพลาดในตัวแอปพริเคชั่นเนื่องจากเรายังใหม่ด้านการเพัฒนาในส่วนแอป หากท่านพบข้อผิดพลาดจากระบบท่านสามารแจ้งและช่วยรายงานข้อผิดพลาดได้ทาง อีเมล์ info@cmhy.ciy หรือแจ้งที่เว็บไซต์ส่วนติดต่อเรา เราจักขอบพระคุณเป็นอย่างยิ่ง**</p>
+
+   <p>*เนื่องจาก CMHY เป็นตัวกลางรวบรวมข้อมูลในเชียงใหม่ ไม่ใช่เจ้าของธุรกิจสถานที่อาจมีความคลาดเคลื่อนของข้อมูลได้
+   หากท่านทราบข้อมูลที่ถูกต้อง หรือพบว่าข้อมูลไม่ถูกต้องได้รับผลกระทบ หรือเป็นเจ้าของธุรกิจของท่าน เพื่อความสะดวกในการจัดการข้อมูลให้มีประสิทธิภาพ
+    แนะนำกรุณากรอกแบบฟอร์มและส่งให้ทางเรา ,หรือเข้าไปที่หน้าธุรกิจนั้นในเเว็บเพจว็บไซต์ www.cmhy.city แล้วส่งฟอร์มรายงาน Report แจ้งกลับมาทางเรา, หรือส่งข้อมูลตามช่องทางด้านล่างผ่านหน้าเพจติดต่อเรา</p><br>
+ <p>ท่านสามารถส่งข้อมูลกิจการร้านค้า เพื่อบันทึกลงในฐานข้อมูล CMHY หรืออัฟเดตข้อมูลที่มีอยู่เว็บไซต์อยู่แล้วให้ถูกต้อง โดยส่งกรอกแบบฟอร์มกิจการ ข้อมูลธุรกิจของท่านบนเว็บไซต์เรา CMHY.city</p><br>
+
+ <p><b>*กดปุ่มด้านล่างเพื่อเข้าเว็บไซต์ www.cmhy.city </b>หลักเพื่อส่งฟอร์มแก้ไข หรือเพิ่มข้อมูล</p> <br>
+  <p>ทางทีมงานกราบขออภัยหากถ้ามีข้อมูลผิดพลาด และท่านสามารถช่วยเหลือเราด้วยการส่งข้อมูลให้กับเราได้ทางฟอร์มแก้ไข หรือทางเว็บไซต์ ทางเราจักขอบพระคุณเป็นอย่างยิ่ง CMHY TEAM </p>
+]]></string>
+
+    <!--    ========== END  REPORT DOCUMENT ========-->
+
+
+    <!--    ========== BEGIN  RULE DOCUMENT ========-->
+
+    <string name="rule_document"><![CDATA[
+               <h1>นโยบายความเป็นส่วนตัว</h1>
+        <p>นโยบายความเป็นส่วนตัวของ CMHY Apps สำหรับการใช้งานแอพพลิเคชั่นด้านล่าง ซึ่งต่อไปนี้จะเรียกว่า “แอพพลิเคชั่น”</p>
+        <p>โปรดอ่านและทำความเข้าใจนโยบายความเป็นส่วนตัวนี้อย่างละเอียด การที่ท่านได้ติดตั้ง และ/หรือเข้าใช้งานแอพพลิเคชั่นนี้แล้ว ถือว่าท่านตกลงยอมรับข้อกำหนดที่ระบุในนโยบายความเป็นส่วนตัวนี้แล้วทุกประการ หากท่านไม่สามารถยอมรับข้อกำหนดนโยบายความเป็นส่วนตัวนี้ได้ <br>
+     ขอให้ท่านปฏิเสธการใช้งานแอพพลิเคชั่นโดยถอนการติดตั้งแอพพลิเคชั่นจากเครื่องโทรศัพท์เคลื่อนที่/อุปกรณ์ดิจิตอลของท่านทันที</p>
+
+<p>ขอต้อนรับสู่ แอปพลิเคชั่น CMHY  และเว็บไซต์ cmhy.city ซึ่งเป็นแพลตฟอร์มที่ดำเนินการโดย ร้านRGB7 (เรียกแยกและเรียกรวมกันว่า"RGB7", "CMHY", "เรา", "พวกเรา" หรือ "ของเรา") CMHY มีหน้าที่รับผิดชอบภายใต้กฎหมายและข้อบังคับความเป็นส่วนตัวที่บังคับใช้ ("กฎหมายเกี่ยวกับการคุ้มครองข้อมูลส่วนบุคคล") อย่างจริงจัง และยึดมั่นต่อการเคารพสิทธิ์และข้อกังวลเกี่ยวกับความเป็นส่วนตัวของผู้ใช้แอปพลิเคชั่นและเว็บไซต์ CMHY ทั้งหมด ("ไซต์") (เราเรียกไซต์และบริการที่เรามอบให้ดังที่ระบุไว้ในไซต์ของเราโดยรวมว่า "บริการ") เราตระหนักถึงความสำคัญของข้อมูลส่วนบุคคลที่คุณมอบให้แก่เรา และเชื่อว่าเรามีหน้าที่รับผิดชอบในการจัดการ ปกป้อง และดำเนินการข้อมูลส่วนบุคคลของคุณอย่างเหมาะสม นโยบายความเป็นส่วนตัวนี้ ("นโยบายความเป็นส่วนตัว" หรือ "นโยบาย") ได้รับการออกแบบมาเพื่อช่วยให้คุณเข้าใจเกี่ยวกับวิธีที่เราเก็บรวบรวม ใช้ เปิดเผย และ/หรือดำเนินการข้อมูลส่วนบุคคลที่คุณมอบให้แก่เราและ/หรือข้อมูลของคุณที่เราครอบครองไม่ว่าจะในปัจจุบันหรืออนาคต รวมทั้งยังเป็นข้อมูลประกอบการตัดสินใจก่อนที่คุณจะให้ข้อมูลส่วนตัวใดๆ แก่เรา โปรดอ่านนโยบายความเป็นส่วนตัวนี้โดยละเอียด หากคุณมีข้อสงสัยเกี่ยวกับข้อมูลเหล่านี้หรือข้อปฏิบัติว่าด้วยความเป็นส่วนตัวของเรา โปรดดูส่วนของหัวข้อ "มีคำถาม ข้อกังวล หรือคำร้องเรียนใช่หรือไม่ โปรดติดต่อเรา" ในตอนท้ายของนโยบายความเป็นส่วนตัวนี้ </p>
+
+
+<h3>การใช้ข้อมูลที่รวบรวม</h3>
+<p> เราจะใช้ข้อมูลที่รวบรวมจากแอพพลิเคชั่นทั้งหมดของ CMHY Apps เพื่อให้บริการ บำรุงรักษา ป้องกัน ปรับปรุง พัฒนาบริการใหม่ๆ และปกป้อง เรา และท่าน ตลอดจนเพื่อนำเสนอเนื้อหาที่ได้รับการปรับแต่ง (Customize) ให้เหมาะสมกับการใช้งานของท่านโดยเฉพาะ เช่น แสดงผลการค้นหาที่เกี่ยวข้องกับท่าน แสดงโฆษณาประชาสัมพันธ์บริการที่ท่านอาจสนใจและเป็นประโยชน์แก่ท่าน</p>
+
+
+<h3>ข้อมูลที่แบ่งปัน</h3>
+<p> เพื่อ “การใช้ข้อมูลที่รวบรวม”เราอาจแบ่งปัน เพื่อให้บริการ บำรุงรักษา ป้องกัน ปรับปรุง พัฒนาบริการใหม่ๆ และปกป้อง เรา และท่าน ตลอดจนเพื่อนำเสนอเนื้อหาที่ได้รับการปรับแต่ง (Customize) ให้เหมาะสมกับการใช้งานของท่านโดยเฉพาะ เช่น แสดงผลการค้นหาที่เกี่ยวข้องกับท่าน แสดงโฆษณาประชาสัมพันธ์บริการที่ท่านอาจสนใจและเป็นประโยชน์แก่ท่าน โดยดำเนินการตามคำแนะนำและตามนโยบายส่วนบุคคลของ CMHY  รวมถึงมาตรการการรักษาข้อมูลที่เป็นความลับและการรักษาความปลอดภัยที่เหมาะสม </p>
+<p> เราอาจแบ่งปันข้อมูลที่ไม่สามารถระบุตัวผู้ใช้งานแอพพลิเคชั่น เช่น ผลการค้นหา ภาษาที่ใช้ เว็บไซต์ที่เข้าชมบ่อย เป็นต้น ต่อสาธารณะหรือให้แก่พันธมิตรทางการค้าของเรา เช่น ผู้เผยแพร่โฆษณา ผู้ลงโฆษณา หรือเว็บไซต์ที่เชื่อมโยงกัน </p>
+
+
+<h3>ข้อมูลที่เราได้รับจากการใช้งานแอพพลิชั่นของท่านข้อมูลที่ท่านให้เรา</h3>
+
+<ul>
+<li>(1) ข้อมูลเครื่องโทรศัพท์เคลื่อนที่/อุปกรณ์ดิจิตอล : เราจะรวบรวมข้อมูลเฉพาะของอุปกรณ์ เช่น รุ่นฮาร์ดแวร์ ระบบปฏิบัติการและรุ่นของระบบปฏิบัติการ ข้อมูลเครือข่ายโทรศัพท์เคลื่อนที่  เพื่อนำมาปรับแต่งการให้บริการและวิเคราะห์ปัญหาที่เหมาะสมกับอุปกรณ์นั้นๆ</li>
+<li>(2) ข้อมูลที่ถูกบันทึก : เมื่อท่านเรียกดูข้อมูลและ/หรือเนื้อหาจากแอพพลิเคชั่นนี้ เราจะบันทึกการเรียกดูข้อมูลและ/หรือเนื้อหาดังกล่าวไว้ในแหล่งรวบรวม ในเซิร์ฟเวอร์ของ CMHY.city และจัดเก็บใน Google Analytic และ Firebase</li>
+<li>(3) คุกกี้และเทคโนโลยีที่คล้ายกัน (Cookies and Similar Technologies) : อาจใช้เทคโนโลยีต่างๆ ในการรวบรวมและจัดเก็บข้อมูลเมื่อท่านเยี่ยมชมเว็บไซต์และ/หรือบริการของเรา โดยการใช้คุกกี้และเทคโนโลยีที่คล้ายกัน เพื่อระบุบราวเซอร์หรืออุปกรณ์ และ/หรือเพื่อรวบรวมและจัดเก็บข้อมูล</li>
+<li>(4) ข้อมูลพื้นที่การจัดเก็บข้อมูลในตัวเครื่อง (Storage) เราอาจรวบรวมและจัดเก็บข้อมูล พื้นที่การจัดเก็บข้อมูลในตัวเครื่อง รวมถึงเก็บข้อมูล ส่วนข้อมูลที่ท่านชื่นชอบเพื่ออนุญาตให้แอพพลิเคชั่นสามารถอ่าน เพื่อแสดงข้อมูลของผู้ใช้ตามการเข้าใช้งานบนแอพพลิเคชั่น</li>
+<li>(5) แอปพลิเคชั่นบนมือถือของเราอาจมีการเปิดเกี่ยวกับตำแหน่งที่ตั้งของอุปกรณ์เคลื่อนที่ ของคุณโดยใช้เทคโนโลยี เช่น GPS, Wi-Fi ฯลฯเปิดเผย และ/หรือดำเนินการข้อมูลนี้เพื่อวัตถุประสงค์ใบริการตามตำแหน่งที่ตั้งที่คุณร้องขอหรือมอบเนื้อหาที่เกี่ยวข้องให้แก่คุณตามตำแหน่งที่ตั้งของคุณ โดยเป็นส่วนหนึ่งของบริการภายใต้แอปพลิเคชั่นบนมือถือของเรา สำหรับอุปกรณ์เคลื่อนที่ส่วนใหญ่ คุณสามารถถอนสิทธิ์ที่จะให้เราได้รับข้อมูลเกี่ยวกับตำแหน่งที่ตั้งของคุณผ่านการตั้งค่าบนอุปกรณ์ของคุณ หากคุณมีข้อสงสัยเกี่ยวกับวิธีปิดการใช้งานบริการเกี่ยวกับตำแหน่งที่ตั้งบนอุปกรณ์เคลื่อนที่ของคุณ โปรดติดต่อผู้ให้บริการอุปกรณ์เคลื่อนที่หรือผู้ผลิตอุปกรณ์ของคุณ</li>
+</ul>
+
+
+<h3>การใช้ข้อมูลส่วนบุคคล</h3>
+<p>เราจะใช้ข้อมูลส่วนบุคคลของท่านเพียงเท่าที่จำเป็น เช่น อีเมล์แอดเดรส ชื่อ ที่อยู่ หรือที่ทำงาน พิกัดที่ตั้ง รหัสไปรษณีย์ หรือหมายเลขโทรศัพท์ เพื่อใช้ในการติดต่อ ให้บริการ ประชาสัมพันธ์ หรือให้ข้อมูลข่าวสารต่างๆ ในกิจการหรือกิจกรรมของ ประมวลผลเชิงสถิติเพื่อพัฒนาเว็บไซต์และแอพพลิเคชั่น cmhy.city และจัดเก็บข้อมูลจากการที่ท่านเข้าใช้บริการของเรา ซึ่งรวมถึงการเข้าเยี่ยมชมเว็บไซต์ของเรา </p>
+
+<h3>การแก้ไขเปลี่ยนแปลงนโยบาย</h3>
+<p>ผู้ควบคุมข้อมูลอาจแก้ไขและเปลี่ยนแปลงข้อความในนโยบายฉบับนี้ได้ ไม่ว่าเวลาใดก็ตาม และไม่ว่าทั้งหมดหรือบางส่วน โดยผู้ควบคุมข้อมูลจะแจ้งให้ผู้ใช้งานทราบเมื่อมีการเปลี่ยนแปลงในแต่ละคราวเพื่อให้ผู้ใช้งานได้พิจารณาและดำเนินการยอมรับด้วยวิธีการทางอิเล็กทรอนิกส์หรือวิธีการอื่นใด และหากว่าผู้ใช้งานได้ดำเนินการเพื่อยอมรับนั้นแล้วให้ถือว่านโยบายที่แก้ไขเพิ่มเติมดังกล่าวเป็นส่วนหนึ่งของนโยบายฉบับนี้ด้วย</p>
+
+<p>อนึ่ง ผู้ใช้งานอาจเข้าถึงนโยบายความเป็นส่วนตัวที่มีแก้ไขและเปลี่ยนแปลงล่าสุดได้จากแหล่งที่ผู้ควบคุมข้อมูลจัดแสดงไว้จากช่องทาง ดังต่อไปนี้
+https://www.cmhy.city/policy/ <br>
+https://www.cmhy.city/about-app/ <br>
+https://www.cmhy.city/policy2 <br>
+https://www.cmhy.city/terms/  </p>
+
+<h1>ข้อสงวนสิทธิ์</h1>
+<p>การนำเสนอข้อมูล ข่าวสาร บทความ หรือข้อความอื่นใดทั้งหมดในแอพพลิเคชั่น นี้เป็นเพียงการให้ บริการ แจ้งข่าวสาร ความรู้ และความรู้ด้านต่าง ๆ แก่ผู้ใช้บริการ เท่านั้น ดังนั้น เราขอสงวนสิทธิ์ในการรับรองความถูกต้อง และรับผิดชอบ เนื้อหาในแอพพลิเคชั่น ไม่ว่าจะเป็น ข้อมูล , ภาพ , ลิงก์ , พิกัด ต่าง ๆ ทั้งทางตรงและทางอ้อม ทั้งนี้เราจะไม่รับผิดชอบ ในความผิดพลาดที่อาจเกิดขึ้นจากการใช้ข้อมูลดังกล่าวข้างต้น ไม่ว่าจะเป็นการสื่อความหมาย หรือ แง่มุมต่างๆ เพื่อการค้า การคาดการณ์ และการใช้ข้อมูลเพื่อจุดประสงค์ใดจุดประสงค์หนึ่งโดยเฉพาะ เรามีสิทธิทุกประการในการ ระงับและ งดการนำเสนอข้อมูลดังกล่าวข้างต้นโดยมิบอกกล่าวล่วงหน้า </p>
+
+<h3>ลิขสิทธิ์ตามกฎหมาย (Copyrights)</h3>
+<p> เราขอแจ้งให้ผู้ใช้บริการทราบว่า บรรดาข้อความ ภาพ เนื้อหา ส่วนประกอบใด ๆ ทั้งหมดของแอพพลิเคชั่น รวมถึง แต่ไม่จำกัดเฉพาะเครื่องหมายการค้า เครื่องหมายบริการ ชื่อ ชื่อทางการค้า สิทธิบัตร Know how ฯลฯ ที่ปรากฏบนแอพพลิเคชั่นนี้ เป็นงานอันได้รับความคุ้มครองตามกฎหมาย หากบุคคลใด ลอกเลียน ปลอมแปลง ทำซ้ำ ดัดแปลง เผยแพร่ต่อสาธารณชน จำหน่าย มีไว้ให้เช่าหรือ กระทำการใด ๆ ในลักษณะที่เป็นการแสวงหาประโยชน์ ทางการค้าหรือ ประโยชน์โดยมิชอบ ไม่ว่าโดยประการใด ๆ จากทรัพย์สินทางปัญญาดังกล่าวข้างต้น โดยไม่ได้รับอนุญาตจาก  เราจะดำเนินการตามกฎหมาย กับผู้ละเมิดสิทธิดังกล่าวโดยทันที การไม่รับรองความเสียหายของผู้ใช้บริการแอพพลิเคชั่น การสงวนสิทธิความรับผิดชอบอันเกิดจากการใช้บริการแอพพลิเคชั่นของทางเรา ในกรณีที่ข้อความโฆษณาและข้อมูลต่างๆ ในแอพพลิเคชั่น นี้ รวมถึงข้อมูลในเว็บไซต์อื่นที่ เราเชื่อมต่อ มายังแอพพลิเคชั่นเราหรือการเชื่อมต่อแอพพลิเคชั่นนี้ไปยังเว็บไซต์อื่นมี ข้อผิดพลาดไม่ว่าจะเกิดจากสาเหตุทางด้านเทคนิคโปรแกรม เนื้อหา หรือ ไวรัสคอมพิวเตอร์ ไวรัสแอพพลิเคชั่น เป็นต้น ถือว่าเป็นความเสี่ยงที่เกิดจาก การใช้วิจารณญาณและความพึงพอใจของผู้ใช้บริการเป็นสำคัญ</p>
+
+<h3>คำจำกัดสิทธิ์ความรับผิดชอบ</h3>
+<p>การไม่รับผิดชอบต่อความเสียหายแอพพลิเคชั่นจะไม่รับผิดชอบต่อความเสียหายใดๆ ไม่ว่าในทางกฎหมายหรือการชดใช้ค่าเสียหายที่เกิดกับผู้ใช้หรือบุคคลที่สาม ไม่ว่าจะโดยทางตรงหรือทางอ้อม ไม่ว่าจะเป็นความเสียหายพิเศษ ความเสียหายโดยบังเอิญ ความเสียหายจากการสูญหายของข้อมูล ความเสียหายจากความไม่ถูกต้องหรือไม่ทันสมัยของข้อมูล ความเสียหายจากไวรัสคอมพิวเตอร์ ความเสียหายจากการโจรกรรมข้อมูล ความเสียหายจากความบกพร่อง ล่าช้าหรือการไม่ทำงานของระบบเครือข่าย และ/หรือความเสียหายใดๆ ซึ่งเกิดจากการที่ท่านเข้าใช้ หรือเข้าถึงข้อมูลหรือการนำเสนอข้อมูลในแอพพลิเคชั่นนี้หรือเว็บไซต์อื่นที่เชื่อมโยงกับเว็บไซต์นี้ไปใช้</p>
+
+<h3>เนื้อหาในแอพพลิเคชั่น</h3>
+<p>รูปภาพ ข้อความ ชื่อทางการค้า เครื่องหมายทางการค้า เครื่องหมายบริการ หรือ สื่ออื่นใด ที่ปรากฏอยู่บนแอพพลิเคชั่นนี้ ได้รับการอนุญาตหรืออนุมัติจากผู้ลงโฆษณา อย่างไรก็ตาม หากท่านผู้เป็นเจ้าของลิขสิทธ์ที่ถูกต้องตามกฎหมาย ต้องการให้เราลบ หรือ จำกัดระยะเวลาในการแสดงรูปภาพหรือเนื้อหาของท่านในแอพพลิเคชั่นนี้ โปรดติดต่อเราเพื่อแสดงความจำนง โดยส่งข้อความและหลักฐานแสดงความเป็นเจ้าของมาที่อีเมล์ info@cmhy.city  หรือ cmhy.city@outlook.com </p>
+
+<p>ทั้งนี้ บรรดา ข้อมูล รูปภาพ ชื่อทางการค้า เครื่องหมายทางการค้า เครื่องหมายบริการ หรือสื่ออื่นใดได้ถูกอนุญาตและจัดหามาโดยผู้ลงโฆษณาหรือเจ้าของโดยชอบธรรมในแต่ละราย ในกรณีที่ ข้อมูล รูปภาพ เสียง ชื่อทางการค้า เครื่องหมายทางการค้า เครื่องหมายบริการ หรือสื่ออื่นใด ที่ปรากฏบนแอพพลิเคชั่นนี้หรือเว็บไซต์อื่นที่เชื่อมโยงกับแอพพลิเคชั่นนี้ เป็นการละเมิดกฎหมายลิขสิทธ์ หรือ ผิดต่อกฎหมายใดๆ หรือ เป็นการนำข้อมูลของบุคคลที่สามมาใช้โดยไม่ได้รับความยินยอมหรืออนุญาตโดยชอบจากเจ้าของที่แท้จริงนั้น ทาง เราจะไม่รับผิดชอบต่อความเสียหายที่เกิดขึ้นใดๆ จากการดังกล่าว </p>
+
+
+<p><b>มีคำถาม ข้อกังวล หรือคำร้องเรียนใช่หรือไม่ โปรดติดต่อเรา</b>  </p>
+<p>ทางทีมงานกราบขออภัยหากถ้ามีข้อมูลผิดพลาด และท่านสามารถช่วยเหลือเราด้วยการส่งข้อมูลให้กับเราได้ทางฟอร์มแก้ไข หรือทางเว็บไซต์ ทางเราจักขอบพระคุณเป็นอย่างยิ่ง CMHY TEAM </p>
+ - หากคุณมีคำถามหรือข้อกังวลเกี่ยวกับข้อปฏิบัติว่าด้วยความเป็นส่วนตัวของเรา หรือเกี่ยวกับการจัดการบริการ โปรดติดต่อเราทันทีที่: info@cmhy.city หรือ cmhy.city@outlook.com<br>
+ - ร้านอาร์จีบีเซเว่น 30 เจริญเมือง วัดเกต อ.เมือง เชียงใหม่
+<br> ]]></string>
+
+    <!--    ========== END  RULE DOCUMENT ========-->
+
+
+    <string name="about_document"><![CDATA[
+    <p>เชียงใหม่เฮลพ์ยู หรือ CMHY เริ่มต้นมาจาก สิงหาคม ปี 2557 ทีมผู้พัฒนาซอฟท์แวร์ นายสุดชาย และ นายพรรษเศวต ทีมงาน RGB7 เล็กๆของคนเชียงใหม่ ได้พบว่าการค้นหาข้อมูลการในพื้นที่ในเมืองเชียงใหม่ เมื่อสำรวจ สถานที่/กิจการธุรกิจขนาดเล็ก/กลาง/ใหญ่ พบว่าข้อมูลหลายๆส่วนยังขาดไปไม่ครบแม่นยำตามที่ต้องการ ได้คุยปรึกษา สรุปว่าในเมื่อเราเป็นคนในพื้นที่เชียงใหม่ และเป็นบ้านเมืองเกิดในเชียงใหม่ อยากจะทำอะไรมอบตอบแทนบ้านเกิดเมืองนอนเชียงใหม...ได้เริ่มวางแผนออกแบบพัฒนาเว็บไซต์ในฝันที่ใช้ง่ายที่สุดตามที่วาดฝันไว้ เพื่อให้ระบบมีประสิทธิภาพสูงสุด จึงออกแบบระบบทั้งหมดและเก็บรวบรวมข้อมูลด้วยตนเอง เพื่อพัฒนาซอฟท์แวร์สำหรับบ้านของเราให้มีระบบค้นหาข้อมูลของเชียงใหม่และเป็นอีกหนึ่งทางเลือกการใช้งแผนที่ที่ละเอียดและมีใกล้เคียงความถูกต้องที่สุดแบบที่ใจฝันไว้...
+     </p>
+
+     <p>ทีมงานได้ลงพื้นที่เริ่มเก็บรวมรวมข้อมูลและตรวจสอบ โดยจัดเก็บข้อมูลพื้นฐานกิจการร้าน สถานที่ทั่วไป ทุกที่ที่ไปเยือน เพื่อบันทึกลงในฐานข้อมูล และปี 2564 ได้พัฒนาแอปพริเคชั่น Android สำหรับเป็นต้นแบบแรก อยากให้ชาวเชียงใหม่และผู้มาเยือนได้ค้นหาค้นพบกิจการ สถานที่สำคัญและเป็นประโยชน์ต่อผู้ใช้งาน โดยหวังอีกว่าผู้ที่มาเยือนเชียงใหม่ หรือนักท่องเที่ยวต่างชาติ จะได้ข้อมูลที่เข้าใจง่ายรวดเร็ว ใกล้เคียงความถูกต้องให้มากที่สุด และหวังว่าสิ่งที่เราทำได้เป็นส่วนหนึ่งที่จะทำให้เศรษฐกิจความเป็นอยู่ของชาวเชียงใหม่ได้เชื่อมต่อและติดต่อกัน ทำให้บ้านเมืองเชียงใหม่พัฒนาขับเคลื่อนไปข้างหน้า ด้วยความภูมิใจจาก เราสองคนผู้พัฒนาซอฟท์แวร์เล็กๆ สร้างสรรค์โดยคนเชียงใหม่ :)
+    </p>
+
+    <br> ]]></string>
+
+    <!--    DEFAULT TEXT FOR TEST -->
+    <string name="step_one">Main</string>
+    <string name="step_two">Category</string>
+    <string name="deep_link_instructions">Type your deep link args</string>
+    <string name="settings_fragment_text">Settings Fragment</string>
+    <string name="search_fragment_text">Search Fragment</string>
+    <string name="navigate_destination_button">Navigate to destination</string>
+    <string name="navigate_action_button">Navigate with action</string>
+    <string name="next_step_button">Navigate>> </string>
+    <string name="finish_button">Finish Flow</string>
+    <string name="next_step_description_button">View Description>> </string>
+    <string name="next_step_fullmap_button">Full Map </string>
+    <string name="next_step_franchise_button">Franchise </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textview">TextView</string>
+    <string name="title">Title</string>
+    <!--    TEXT FOR TEST -->
+    <string name="textName">โรงพยาบาล แม่และเด็ก </string>
+    <string name="textAddress">51 ศูนย์อนามัยที่ 1 เชียงใหม่ ถนนประชาสัมพันธ์ ตำบลช้างคลาน อำเภอ เมือง เชียงใหม่ รหัสไปรษณีย์ 50100</string>
+    <string name="textTel"><a href="tel:053-272-740">053-272-740</a></string>
+    <string name="textTel1">053272740</string>
+    <string name="textTel2">053276856</string>
+    <string name="textTel3">053-276-856</string>
+    <string name="textTime">อังคาร-อาทิตย์ 10:30-21:00 เสาร์ 09:00-17:00 จันทร์ 10:00-20:30</string>
+    <string name="textTag"> #โรงพยาบาลเด็ก #คลอด #ฝากท้อง #กรมส่งเสริมสุขภาพที่ #สถานีอนามัยแม่และเด็ก #มะเร็งมากมดลูก #ฝากครรภ์ #ศูนย์อนามัย</string>
+    <string name="textLink">http://hpc1.go.th/hpc1/en/index.php</string>
+    <string name="textGps">18.7952820, 98.9962740</string>
+    <string name="textLinkReport">https://www.cmhy.city/contact</string>
+    <string name="textLolemName">Lorem ipsum dolor sit amet, consectetur</string>
+
+
+</resources>

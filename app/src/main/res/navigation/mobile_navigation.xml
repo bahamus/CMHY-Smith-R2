@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2018 The Android Open Source Project
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/main_dest">
+
+    <!--  ============= BEGIN MAIN  PAGE ==================-->
+    <fragment
+        android:id="@+id/main_dest"
+        android:name="com.trinity.android.rgb7.cmhy.MainFragment"
+        tools:layout="@layout/main_fragment">
+
+        <action
+            android:id="@+id/action_main_dest_to_flow_place_category_dest"
+            app:destination="@id/flow_place_category_dest"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_main_dest_to_flow_place_search_dest"
+            app:destination="@id/flow_place_search_dest"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+
+    </fragment>
+
+    <!--  ============= END MAIN  PAGE ==================-->
+
+    <!--  ============= BEGIN PLACE CATEGORY  PAGE ==================-->
+
+    <fragment
+        android:id="@+id/flow_place_category_dest"
+        android:name="com.trinity.android.rgb7.cmhy.PlaceCategoryFragment"
+        android:label=""
+        tools:layout="@layout/place_category_fragment">
+        <argument
+            android:name="placeIdArgs"
+            android:defaultValue="Null"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_flow_place_category_dest_to_placeListFragment"
+            app:destination="@id/flow_place_list_dest"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_flow_place_category_dest_to_flow_place_search_dest"
+            app:destination="@id/flow_place_search_dest"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+
+    </fragment>
+    <!--  ============= END PLACE CATEGORY  PAGE ==================-->
+
+    <!--  ============= BEGIN PLACE LIST  PAGE ==================-->
+    <fragment
+        android:id="@+id/flow_place_list_dest"
+        android:name="com.trinity.android.rgb7.cmhy.PlaceListFragment"
+        android:label=""
+        tools:layout="@layout/place_list_fragment">
+        <action
+            android:id="@+id/action_placeListFragment_to_placeDetailFragment"
+            app:destination="@id/flow_place_detail_dest"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <argument
+            android:name="placeIdArgs"
+            android:defaultValue="Null"
+            app:argType="string"
+
+            />
+        <action
+            android:id="@+id/action_flow_place_list_dest_to_flow_place_search_dest"
+            app:destination="@id/flow_place_search_dest"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+        <action
+            android:id="@+id/action_flow_place_list_dest_to_placeListMapList"
+            app:destination="@id/placeListMapList"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <!--  ============= END   PLACE LIST   PAGE ==================-->
+
+    <fragment
+        android:id="@+id/flow_place_detail_dest"
+        android:name="com.trinity.android.rgb7.cmhy.PlaceDetailFragment"
+        android:label=""
+        tools:layout="@layout/place_detail_fragment">
+        <argument
+            android:name="placeIdArgs"
+            android:defaultValue="Null"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_flow_place_detail_dest_to_placeDetailFullMapFragment"
+            app:destination="@id/flow_place_detail_full_map"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_flow_place_detail_dest_to_placeDetailDescription"
+            app:destination="@id/flow_place_detail_to_descripton"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_flow_place_detail_dest_to_flow_place_search_dest"
+            app:destination="@id/flow_place_search_dest"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+        <action
+            android:id="@+id/action_flow_place_detail_dest_to_reportFragment"
+            app:destination="@id/reportFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_flow_place_detail_dest_to_setting"
+            app:destination="@id/settingFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_flow_place_detail_dest_to_placeDetailFranchise"
+            app:destination="@id/placeDetailFranchise"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <!--  ============= BEGIN SEARCH PAGE ==================-->
+
+    <fragment
+        android:id="@+id/flow_place_search_dest"
+        android:name="com.trinity.android.rgb7.cmhy.SearchFragment"
+        android:label=""
+        tools:layout="@layout/search_fragment">
+        <action
+            android:id="@+id/action_flow_place_search_dest_to_flow_place_detail_dest"
+            app:destination="@id/flow_place_detail_dest"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_flow_place_search_dest_to_searchMapList"
+            app:destination="@id/searchMapList"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+
+    <!--  ============= END SEARCH PAGE ==================-->
+
+    <!--  ============= BEGIN PLACE DETAIL FULL MAP PAGE ==================-->
+    <fragment
+        android:id="@+id/flow_place_detail_full_map"
+        android:name="com.trinity.android.rgb7.cmhy.PlaceDetailFullMapFragment"
+        android:label="@string/label_full_map_text"
+        tools:layout="@layout/place_detail_full_map_fragment">
+        <argument
+            android:name="LatArgs"
+            android:defaultValue="Null"
+            app:argType="string" />
+        <argument
+            android:name="LngArgs"
+            android:defaultValue="Null"
+            app:argType="string" />
+        <argument
+            android:name="placeNameArgs"
+            android:defaultValue="null"
+            app:argType="string" />
+    </fragment>
+
+    <!--  ============= END PLACE DETAIL FULL MAP PAGE ==================-->
+
+    <!--  ============= BEGIN PLACE DETAIL DESCRIPTION ==================-->
+    <fragment
+        android:id="@+id/flow_place_detail_to_descripton"
+        android:name="com.trinity.android.rgb7.cmhy.PlaceDetailDescription"
+        android:label="@string/label_place_detail_des_text"
+        tools:layout="@layout/place_detail_description_fragment">
+        <argument
+            android:name="PlaceIdArgs"
+            android:defaultValue="null"
+            app:argType="string" />
+    </fragment>
+    <!--  ============= END PLACE DETAIL DESCRIPTION ==================-->
+
+    <!--  ============= BEGIN REPORT ==================-->
+    <fragment
+        android:id="@+id/reportFragment"
+        android:name="com.trinity.android.rgb7.cmhy.ReportFragment"
+        android:label="@string/label_report_text"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right"
+        tools:layout="@layout/report_fragment" />
+
+    <!--  ============= END REPORT ==================-->
+
+    <!--  ============= BEGIN FRANCHISE ==================-->
+    <fragment
+        android:id="@+id/placeDetailFranchise"
+        android:name="com.trinity.android.rgb7.cmhy.PlaceDetailFranchise"
+        android:label=""
+        tools:layout="@layout/place_detail_franchise_fragment">
+        <argument
+            android:name="franchiseArgs"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_placeDetailFranchise_to_flow_place_detail_dest"
+            app:destination="@id/flow_place_detail_dest"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_placeDetailFranchise_to_placeDetailFranchiseMapList"
+            app:destination="@id/placeDetailFranchiseMapList"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <!--  ============= END  FRANCHISE ==================-->
+
+    <!--  ============= BEGIN SETTING ==================-->
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.trinity.android.rgb7.cmhy.SettingFragment"
+        android:label="@string/label_setting_text"
+        tools:layout="@layout/setting_fragment">
+        <action
+            android:id="@+id/action_settingFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_settingFragment_to_ruleFragment"
+            app:destination="@id/ruleFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_settingFragment_to_reportFragment"
+            app:destination="@id/reportFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <!--  ============= END  SETTING ==================-->
+
+    <!--  ============= BEGIN ABOUT ==================-->
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.trinity.android.rgb7.cmhy.AboutFragment"
+        android:label="@string/label_about_text"
+        tools:layout="@layout/about_fragment" />
+    <!--  ============= END ABOUT ==================-->
+
+    <!--  ============= BEGIN RULE ==================-->
+    <fragment
+        android:id="@+id/ruleFragment"
+        android:name="com.trinity.android.rgb7.cmhy.RuleFragment"
+        android:label="@string/label_rule_text"
+        tools:layout="@layout/rule_fragment" />
+    <!--  ============= END RULE ==================-->
+
+    <!--  ============= BEGIN PLACE LIST MAP ==================-->
+
+    <fragment
+        android:id="@+id/placeListMapList"
+        android:name="com.trinity.android.rgb7.cmhy.PlaceListMapList"
+        android:label=""
+        tools:layout="@layout/place_list_map_list">
+        <action
+            android:id="@+id/action_placeListMapList_to_flow_place_detail_dest"
+            app:destination="@id/flow_place_detail_dest"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <argument
+            android:name="placeIdArgs"
+            android:defaultValue="null"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_placeListMapList_to_flow_place_search_dest"
+            app:destination="@id/flow_place_search_dest"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"/>
+    </fragment>
+    <!--  ============= END  PLACE LIST MAP ==================-->
+
+    <!--  ============= BEGIN SEARCH MAP LIST ==================-->
+    <fragment
+        android:id="@+id/searchMapList"
+        android:name="com.trinity.android.rgb7.cmhy.SearchMapList"
+        android:label=""
+        tools:layout="@layout/search_map_list">
+        <action
+            android:id="@+id/action_searchMapList_to_flow_place_detail_dest"
+            app:destination="@id/flow_place_detail_dest"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <argument
+            android:name="placeIdArgs"
+            android:defaultValue="null"
+            app:argType="string" />
+    </fragment>
+    <!--  ============= END SEARCH MAP LIST ==================-->
+
+    <!--  ============= BEGIN MAP FRANCHISE ==================-->
+    <fragment
+        android:id="@+id/placeDetailFranchiseMapList"
+        android:name="com.trinity.android.rgb7.cmhy.PlaceDetailFranchiseMapList"
+        android:label=""
+        tools:layout="@layout/place_detail_franchise_map_list">
+        <action
+            android:id="@+id/action_placeDetailFranchiseMapList_to_flow_place_detail_dest"
+            app:destination="@id/flow_place_detail_dest"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <argument
+            android:name="placeIdArgs"
+            android:defaultValue="null"
+            app:argType="string" />
+    </fragment>
+
+    <!--  ============= END  MAP FRANCHISE ==================-->
+
+
+</navigation>

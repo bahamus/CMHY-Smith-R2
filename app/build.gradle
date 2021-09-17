@@ -1,0 +1,147 @@
+/*
+ * Copyright 2018, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'androidx.navigation.safeargs.kotlin'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
+
+android {
+    compileSdkVersion 30
+    defaultConfig {
+        applicationId 'com.trinity.android.rgb7.cmhy'
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 101209
+        versionName '1.1.2'
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        versionNameSuffix appCompatVersion
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            testCoverageEnabled false
+        }
+        // add the code from below line
+        applicationVariants.all{
+                // this method is use to rename your all apk weather
+                // it may be signed or unsigned(debug apk)
+            variant ->
+                variant.outputs.each{
+                    output->
+                        def name = "CMHY(${variant.versionName}-${variant.versionCode}).apk"
+                        output.outputFileName = name
+
+//                        def appId = variant.applicationId// com.exampleFree.app OR com.examplePaid.app
+//                        def versionName = variant.versionName
+//                        def versionCode = variant.versionCode // e.g 1.0
+//                        def flavorName = variant.flavorName // e. g. Free
+//                        def buildType = variant.buildType.name // e. g. debug
+//                        def variantName = variant.name // e. g. FreeDebug
+//
+//                        //customize your app name by using variables
+//                        outputFileName = "CMHY"+"${versionName}"+"${versionCode}"+"${buildType}"+".apk"
+
+                }
+        }
+    }
+    buildFeatures {
+        //noinspection DataBindingWithoutKapt
+        dataBinding true
+    }
+    productFlavors {
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+}
+
+dependencies {
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    def nav_version = "2.3.5"
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+
+    // Kotlin
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+    // Feature module Support
+    implementation "androidx.navigation:navigation-dynamic-features-fragment:$nav_version"
+    //Google Map Services
+    implementation 'com.google.android.gms:play-services-maps:17.0.1'
+
+    // Testing Navigation
+    androidTestImplementation "androidx.navigation:navigation-testing:$nav_version"
+
+    // Jetpack Compose Integration
+    implementation "androidx.navigation:navigation-compose:1.0.0-alpha10"
+
+    //noinspection GradleDependency
+    implementation "com.google.android.material:material:$rootProject.materialVersion"
+    //noinspection GradleDependency
+    implementation "androidx.appcompat:appcompat:$rootProject.appCompatVersion"
+    //noinspection GradleDependency
+    implementation "androidx.recyclerview:recyclerview:$rootProject.recyclerVersion"
+
+    //noinspection GradleDependency
+    implementation "androidx.constraintlayout:constraintlayout:$rootProject.constraintLayoutVersion"
+
+
+    // Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation "com.squareup.okhttp3:logging-interceptor:4.9.0"
+
+    // Coroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.3'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.3'
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1"
+
+    //Picasso
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    //Firebase
+    implementation platform('com.google.firebase:firebase-bom:28.0.1')
+    implementation 'com.google.firebase:firebase-crashlytics-ktx'
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+
+    //Admob
+    implementation 'com.google.android.gms:play-services-ads:20.2.0'
+
+
+
+
+
+
+
+}

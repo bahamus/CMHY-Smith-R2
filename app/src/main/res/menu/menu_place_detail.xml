@@ -1,0 +1,34 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <!--    ACTION BAR SEARCH -->
+
+    <item
+        android:id="@+id/searching"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="@string/search_page"
+        app:showAsAction="always"
+        />
+
+
+    <item
+        android:id="@+id/fullmap_dest"
+        android:icon="@drawable/ic_settings"
+        android:menuCategory="secondary"
+        android:title="@string/appbarMap" />
+    <item
+        android:id="@+id/googledrive_dest"
+        android:title="@string/appbarNav"
+        android:menuCategory="secondary" />
+<!--    <item-->
+<!--        android:id="@+id/report_dest"-->
+<!--        android:title="@string/appbarReport"-->
+<!--        android:menuCategory="secondary" />-->
+
+    <item
+        android:id="@+id/setting_dest"
+        android:title="@string/appbarSetting"
+        android:menuCategory="secondary" />
+
+</menu>

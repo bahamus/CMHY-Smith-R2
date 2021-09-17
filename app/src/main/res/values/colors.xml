@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2018 The Android Open Source Project
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <!--    COLOR OF CMHY-->
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorDark">#111111</color>
+    <color name="colorPrimary">#ff4174</color>
+    <color name="colorPrimarLight">#ff79a2</color>
+    <color name="colorPrimaryDark">#c60049</color>
+    <color name="colorTextGray">#333333</color>
+    <color name="colorTextRead">#3e3e3e</color>
+    <color name="colorTextPrimary">#000000</color>
+    <color name="colorTextSecond">#3d3d3d</color>
+    <color name="colorDivider">#808080</color>
+    <color name="colorChevRight">#808080</color>
+    <color name="colorAccent">#ff4174</color>
+    <color name="colorWhiteSecond">#f8f9fa</color>
+
+    <!--    Group Color-->
+    <color name="colorGovenment">#787876</color>
+    <color name="colorFood">#9A8FBA</color>
+    <color name="colorShop">#E97F57</color>
+    <color name="colorPersonal">#FA6E6D</color>
+    <color name="colorSport">#FB8F23</color>
+    <color name="colorHealth">#00AE89</color>
+    <color name="colorAuto">#CE4152</color>
+    <color name="colorBusiness">#4EA6B6</color>
+    <color name="colorServices">#787876</color>
+    <color name="colorBank">#787876</color>
+    <color name="colorReligeon">#FFBE49</color>
+    <color name="colorTransport">#604041</color>
+    <color name="colorTravel">#B14565</color>
+
+    <!--    Group extend-->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#eee</color>
+    <color name="colorIcon">#4d738a</color>
+
+</resources>

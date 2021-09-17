@@ -125,12 +125,6 @@ class PlaceDetailFragment : Fragment() {
         MobileAds.initialize(context)
         view.findViewById<AdView>(R.id.adViewBanner).apply {
 
-            val location = Location("AdMobProvider")
-            location.latitude = 18.790218528898254
-            location.latitude = 98.98770239881131
-            val adBuilder = AdRequest.Builder()
-            adBuilder.setLocation(location)
-            adBuilder.addKeyword("เชียงใหม่");
 
             val adRequest = AdRequest.Builder().build()
             loadAd(adRequest)

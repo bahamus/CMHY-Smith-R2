@@ -1,5 +1,7 @@
 package com.trinity.android.rgb7.cmhy
 
+import android.app.Activity
+import android.content.ContentValues.TAG
 import android.os.Bundle
 import android.util.Log
 import android.view.*
@@ -11,6 +13,9 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
+import com.google.android.gms.ads.*
+import com.google.android.gms.ads.interstitial.InterstitialAd
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
@@ -25,11 +30,13 @@ import com.trinity.android.rgb7.cmhy.repository.Repository
 
 class SearchMapList : Fragment() {
 
+
     //Innitail Variable Declaration GPS
     var googleLat: Double = 0.0
     var googleLng: Double = 0.0
 
     private lateinit var viewModel: MainViewModel
+    private var mInterstitialAd: InterstitialAd? = null
     private val safeArgs: SearchMapListArgs by navArgs()
 
 
@@ -60,6 +67,54 @@ class SearchMapList : Fragment() {
         else {
             actionBar.title = "ค้นหาแผนที่ " + "\u0022" + SearchID + "\u0022"
         }
+
+
+        /**  BEGIN Interstitial ADS  */
+        // ca-app-pub-4619737788076129/7287377475  REAL CODE
+        // ca-app-pub-3940256099942544/1033173712 CODE TEST
+
+        val testDeviceIds = listOf("407ABC6C56886BFC982CA879C25A4138")
+        val configuration = RequestConfiguration.Builder().setTestDeviceIds(testDeviceIds).build()
+        MobileAds.setRequestConfiguration(configuration)
+
+
+        val adRequest = AdRequest.Builder().build()
+
+        InterstitialAd.load(context,"ca-app-pub-4619737788076129/7287377475", adRequest, object : InterstitialAdLoadCallback() {
+            override fun onAdFailedToLoad(adError: LoadAdError) {
+                Log.d(TAG, adError?.message)
+                mInterstitialAd = null
+            }
+
+            override fun onAdLoaded(interstitialAd: InterstitialAd) {
+                Log.d(TAG, "Ad was loaded.")
+                mInterstitialAd = interstitialAd
+            }
+        })
+
+        //LOG
+        mInterstitialAd?.fullScreenContentCallback = object: FullScreenContentCallback() {
+            override fun onAdDismissedFullScreenContent() {
+                Log.d(TAG, "Ad was dismissed.")
+            }
+
+            override fun onAdFailedToShowFullScreenContent(adError: AdError?) {
+                Log.d(TAG, "Ad failed to show.")
+            }
+
+            override fun onAdShowedFullScreenContent() {
+                Log.d(TAG, "Ad showed fullscreen content.")
+                mInterstitialAd = null;
+            }
+        }
+
+        //Show ADS
+        if (mInterstitialAd != null) {
+            mInterstitialAd?.show(context as Activity)
+        } else {
+            Log.d("TAG", "The interstitial ad wasn't ready yet.")
+        }
+        /**  END Interstitial ADS  */
 
 
         //Update Value Lat , Lng

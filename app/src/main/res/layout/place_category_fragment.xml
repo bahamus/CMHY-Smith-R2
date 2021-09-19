@@ -24,19 +24,17 @@
         android:id="@+id/grid_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="16dp"
         android:gravity="center"
         android:horizontalSpacing="8dp"
         android:numColumns="4"
         android:paddingStart="4dp"
         android:paddingTop="0dp"
         android:paddingEnd="4dp"
-        android:paddingBottom="48dp"
+        android:paddingBottom="54dp"
         android:verticalSpacing="32dp"
-        android:layout_marginBottom="0dp"
 
 
-        />
+        tools:layout_editor_absoluteY="16dp" />
 
     <!--    =========BEGIN ADMOB ===============-->
     <com.google.android.gms.ads.AdView

@@ -38,7 +38,7 @@ import com.google.firebase.ktx.Firebase
 class MainFragment : Fragment() {
 
     private lateinit var firebaseAnalytics: FirebaseAnalytics
-    private var mInterstitialAd: InterstitialAd? = null
+
     private final var TAG = "MainActivity"
 
     override fun onCreateView(
@@ -112,52 +112,7 @@ class MainFragment : Fragment() {
 
 
 
-        /**  BEGIN Interstitial ADS  */
-        // ca-app-pub-4619737788076129/7287377475  REAL CODE
-        // ca-app-pub-3940256099942544/1033173712 CODE TEST
 
-//        val testDeviceIds = listOf("407ABC6C56886BFC982CA879C25A4138")
-//        val configuration = RequestConfiguration.Builder().setTestDeviceIds(testDeviceIds).build()
-//        MobileAds.setRequestConfiguration(configuration)
-//
-//
-//        val adRequest = AdRequest.Builder().build()
-//
-//        InterstitialAd.load(context,"ca-app-pub-4619737788076129/7287377475", adRequest, object : InterstitialAdLoadCallback() {
-//            override fun onAdFailedToLoad(adError: LoadAdError) {
-//                Log.d(TAG, adError?.message)
-//                mInterstitialAd = null
-//            }
-//
-//            override fun onAdLoaded(interstitialAd: InterstitialAd) {
-//                Log.d(TAG, "Ad was loaded.")
-//                mInterstitialAd = interstitialAd
-//            }
-//        })
-//
-//        //LOG
-//        mInterstitialAd?.fullScreenContentCallback = object: FullScreenContentCallback() {
-//            override fun onAdDismissedFullScreenContent() {
-//                Log.d(TAG, "Ad was dismissed.")
-//            }
-//
-//            override fun onAdFailedToShowFullScreenContent(adError: AdError?) {
-//                Log.d(TAG, "Ad failed to show.")
-//            }
-//
-//            override fun onAdShowedFullScreenContent() {
-//                Log.d(TAG, "Ad showed fullscreen content.")
-//                mInterstitialAd = null;
-//            }
-//        }
-//
-//        //Show ADS
-//        if (mInterstitialAd != null) {
-//            mInterstitialAd?.show(context as Activity)
-//        } else {
-//            Log.d("TAG", "The interstitial ad wasn't ready yet.")
-//        }
-        /**  END Interstitial ADS  */
 
 
 

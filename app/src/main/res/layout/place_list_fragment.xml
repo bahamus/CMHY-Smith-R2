@@ -23,6 +23,8 @@
 
 <!--        android:paddingBottom="48dp"/> *for Ads Reserve-->
 
+    <!--    =========BEGIN ADMOB ===============-->
+
 
     <TextView
         android:id="@+id/text_response_error"
@@ -34,7 +36,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!--    =========BEGIN ADMOB ===============-->
 
     <!--    =========END ADMOB ===============-->
 

@@ -15,8 +15,8 @@
 
 <resources>
     <string name="app_name">CMHY</string>
-    <string name="app_version">1.1.3 (Build 101301) </string>
-    <string name="main_text">1.1.3</string>
+    <string name="app_version">1.1.4 (Build 101401) </string>
+    <string name="main_text">1.1.4</string>
 
 
     <!-- Menu strings -->
@@ -144,7 +144,7 @@
     <string name="cat_150">มังสวิรัติ </string>
     <string name="cat_165">อาหารฮาลาล </string>
     <string name="cat_164">อาหารปักษ์ใต้ </string>
-    <string name="cat_166">ไอศครีม </string>
+    <string name="cat_166">ไอศกรีม </string>
     <string name="cat_231">ขนมจีน </string>
     <string name="cat_29">ของว่าง </string>
     <string name="cat_204">ข้าวต้ม-โจ๊ก </string>
@@ -476,112 +476,125 @@
 
     <!--    Code ID-->
     <string-array name="cat_food_id">
-        <item>24</item>
-        <item>148</item>
-        <item>26</item>
-        <item>27</item>
-        <item>28</item>
-        <item>152</item>
-        <item>30</item>
-        <item>124</item>
-        <item>147</item>
-        <item>25</item>
-        <item>149</item>
-        <item>100</item>
-        <item>150</item>
-        <item>165</item>
-        <item>164</item>
-        <item>166</item>
-        <item>231</item>
-        <item>29</item>
-        <item>204</item>
-        <item>205</item>
-        <item>212</item>
-        <item>208</item>
-        <item>220</item>
-        <item>216</item>
-        <item>229</item>
-        <item>237</item>
-        <item>238</item>
-        <item>248</item>
-        <item>247</item>
-        <item>17</item>
-        <item>233</item>
+
+
+        <item>148</item> <!-- ;บุฟเฟ่ต์  -->
+        <item>25</item> <!-- ;ปิ้งย่าง/จุ่ม  -->
+        <item>216</item> <!-- ;ชาบู/สุกี้  -->
+        <item>26</item> <!-- ;เบเกอรี่  -->
+        <item>27</item> <!-- ;กาแฟ/คาเฟ่ -->
+        <item>212</item> <!-- ;สเต็ก  -->
+        <item>247</item> <!-- ;พิซซ่า  -->
+        <item>30</item> <!-- ;ฟาสต์ฟู้ด  -->
+        <item>149</item> <!-- ;อาหารนานาชาติ  -->
+        <item>17</item> <!-- ;อาหารญี่ปุ่น  -->
+        <item>152</item> <!-- ;อาหารทั่วไป  -->
+        <item>166</item> <!-- ;ไอศกรีม  -->
+        <item>147</item> <!-- ;เครื่องดื่ม  -->
+        <item>29</item> <!-- ;ของว่าง  -->
+        <item>248</item> <!-- ;เบอร์เกอร์  -->
+        <item>165</item> <!-- ;อาหารฮาลาล  -->
+        <item>124</item> <!-- ;ข้าวซอย  -->
+        <item>204</item> <!-- ;ข้าวต้ม-โจ๊ก  -->
+        <item>205</item> <!-- ;อาหารอีสาน  -->
+        <item>100</item> <!-- ;อาหารพื้นเมือง  -->
+        <item>28</item> <!-- ;อาหารตามสั่ง  -->
+        <item>24</item> <!-- ;ก๋วยเตี๋ยว  -->
+        <item>150</item> <!-- ;มังสวิรัติ  -->
+        <item>164</item> <!-- ;อาหารปักษ์ใต้  -->
+        <item>237</item> <!-- ;ชานมไข่มุก  -->
+        <item>238</item> <!-- ;ลูกชิ้น  -->
+        <item>229</item> <!-- ;หม่าล่า  -->
+        <item>233</item> <!-- ;คาเฟ่สัตว์เลี้ยง  -->
+        <item>220</item> <!-- ;ผัดไทย  -->
+        <item>231</item> <!-- ;ขนมจีน  -->
+        <item>208</item> <!-- ;คาเฟ่ 24HR  -->
+
+
     </string-array>
 
     <!--    Name-->
     <string-array name="cat_food_name">
-        <item>ก๋วยเตี๋ยว</item>
+
+
         <item>บุฟเฟ่ต์</item>
+        <item>ปิ้งย่าง/จุ่ม</item>
+        <item>ชาบู/สุกี้</item>
         <item>เบเกอรี่</item>
         <item>กาแฟ/คาเฟ่</item>
-        <item>อาหารตามสั่ง</item>
-        <item>อาหารทั่วไป</item>
-        <item>ฟาสฟู๊ด</item>
-        <item>ข้าวซอย</item>
-        <item>เครื่องดื่ม</item>
-        <item>ปิ้งย่าง/จุ่ม</item>
+        <item>สเต็ก</item>
+        <item>พิซซ่า</item>
+        <item>ฟาสต์ฟู้ด</item>
         <item>อาหารนานาชาติ</item>
-        <item>อาหารพื้นเมือง</item>
-        <item>มังสวิรัติ</item>
+        <item>อาหารญี่ปุ่น</item>
+        <item>อาหารทั่วไป</item>
+        <item>ไอศกรีม</item>
+        <item>เครื่องดื่ม</item>
+        <item>ของว่าง/ขนม</item>
+        <item>เบอร์เกอร์</item>
         <item>อาหารฮาลาล</item>
-        <item>อาหารปักษ์ใต้</item>
-        <item>ไอศครีม</item>
-        <item>ขนมจีน</item>
-        <item>ของว่าง</item>
+        <item>ข้าวซอย</item>
         <item>ข้าวต้ม-โจ๊ก</item>
         <item>อาหารอีสาน</item>
-        <item>สเต็ก</item>
-        <item>คาเฟ่ 24HR</item>
-        <item>ผัดไทย</item>
-        <item>ชาบู/สุกี้</item>
-        <item>หม่าล่า</item>
+        <item>อาหารพื้นเมือง-ไทย</item>
+        <item>อาหารตามสั่ง</item>
+        <item>ก๋วยเตี๋ยว</item>
+        <item>มังสวิรัติ</item>
+        <item>อาหารปักษ์ใต้</item>
         <item>ชานมไข่มุก</item>
         <item>ลูกชิ้น</item>
-        <item>เบอร์เกอร์</item>
-        <item>พิซซ่า</item>
-        <item>อาหารญี่ปุ่น</item>
+        <item>หม่าล่า</item>
         <item>คาเฟ่สัตว์เลี้ยง</item>
+        <item>ผัดไทย</item>
+        <item>ขนมจีน</item>
+        <item>คาเฟ่ 24HR</item>
+
+
     </string-array>
 
     <!--  CatId  "04" SHOP -> {-->
     <!--    arrayOf("31", "18", "32", "8", "93", "34", "155", "187", "162", "156", "163", "218", "239", "244", "243")-->
     <!--    }-->
     <string-array name="cat_shop_id">
-        <item>31</item>
-        <item>18</item>
-        <item>32</item>
-        <item>8</item>
-        <item>93</item>
-        <item>34</item>
-        <item>155</item>
-        <item>187</item>
-        <item>162</item>
-        <item>156</item>
-        <item>163</item>
-        <item>218</item>
-        <item>239</item>
-        <item>244</item>
-        <item>243</item>
+
+
+        <item>31</item> <!-- ;ตลาด -->
+        <item>156</item> <!-- ;ตลาดนัด-->
+        <item>8</item> <!-- ;ซุปเปอร์มาร์เกต-->
+        <item>93</item> <!-- ;เซเว่นอีเลเว่น-->
+        <item>18</item> <!-- ;มินิมาร์ท-->
+        <item>218</item> <!-- ; อาหารสด-->
+        <item>187</item> <!-- ;อาหารแช่แช็ง-->
+        <item>34</item> <!-- ;วัตตถุดิบทั่วไป-->
+        <item>155</item> <!-- ;ชอปปิ้งมอลล์-->
+        <item>163</item> <!-- ;คอมมูนิตี้มอลล์-->
+        <item>162</item> <!-- ;ไก่ห้าดาว-->
+        <item>32</item> <!-- ; ขายของชำ-->
+        <item>243</item> <!-- ;ผัก/ผลไม้-->
+        <item>244</item > <!-- ;ขายข้าว-->
+        <item>239</item> <!-- ;สตรีทฟู้ด-->
+
     </string-array>
 
     <!--    Name-->
     <string-array name="cat_shop_name">
+
         <item>ตลาด</item>
-        <item>มินิมาร์ท</item>
-        <item>ขายของชำ</item>
+        <item>ตลาดนัด</item>
         <item>ซุปเปอร์มาร์เกต</item>
         <item>เซเว่นอีเลเว่น</item>
-        <item>วัตถุดิบทั่วไป</item>
-        <item>ชอปปิ้งมอลล์</item>
-        <item>อาหารแช่แช็ง</item>
-        <item>ไก่ห้าดาว</item>
-        <item>ตลาดนัด</item>
-        <item>คอมมูนิตี้มอลล์</item>
+        <item>มินิมาร์ท</item>
         <item>อาหารสด</item>
-        <item>สตรีทฟู้ด</item>
-        <item>ขายข้าว</item>
+        <item>อาหารแช่แช็ง</item>
+        <item>รวัตถุดิบทั่วไป</item>
+        <item>ชอปปิ้งมอลล์</item>
+        <item>คอมมูนิตี้มอลล์</item>
+        <item>ไก่ห้าดาว</item>
+        <item>ร้านขายของชำ</item>
         <item>ผัก/ผลไม้</item>
+        <item>ร้านขายข้าว</item>
+        <item>สตรีทฟู้ด</item>
+
     </string-array>
 
 
@@ -590,32 +603,37 @@
     <!--    }-->
 
     <string-array name="cat_personal_id">
-        <item>35</item>
-        <item>102</item>
-        <item>36</item>
-        <item>37</item>
-        <item>38</item>
-        <item>123</item>
-        <item>153</item>
-        <item>154</item>
-        <item>197</item>
-        <item>199</item>
-        <item>228</item>
+
+        <item>154</item><!-- ;เครื่องแต่งกาย  -->
+        <item>228</item><!-- ;รองเท้า  -->
+        <item>102</item> <!-- ;เสื้อผ้าสตรี  -->
+        <item>38</item> <!-- ;เครื่องสำอางค์  -->
+        <item>123</item> <!-- ;เสื้อผ้ามือสอง  -->
+        <item>197</item><!-- ;ชุดเช่า  -->
+        <item>153</item><!-- ;ตัดเสื้อ  -->
+        <item>199</item><!-- ;แม่และเด็ก  -->
+        <item>36</item> <!-- ;นวดและสปา  -->
+        <item>35</item>  <!-- ;เสริมสวย  -->
+        <item>37</item> <!-- ;ตัดผมชาย  -->
+
+
     </string-array>
 
     <!--    Name-->
     <string-array name="cat_personal_name">
-        <item>เสริมสวย</item>
+        <item>เครื่องแต่งกาย</item>
+        <item>รองเท้า</item>
         <item>เสื้อผ้าสตรี</item>
-        <item>นวดและสปา</item>
-        <item>ตัดผมชาย</item>
         <item>เครื่องสำอางค์</item>
         <item>เสื้อผ้ามือสอง</item>
-        <item>ตัดเสื้อ</item>
-        <item>เครื่องแต่งกาย</item>
         <item>ชุดเช่า</item>
+        <item>ตัดเสื้อ/ซ่อม</item>
         <item>แม่และเด็ก</item>
-        <item>รองเท้า</item>
+        <item>นวด/สปา</item>
+        <item>เสริมสวย</item>
+        <item>ตัดผมชาย</item>
+
+
     </string-array>
 
 
@@ -624,34 +642,36 @@
     <!--    }-->
 
     <string-array name="cat_sport_id">
-        <item>40</item>
-        <item>41</item>
-        <item>42</item>
-        <item>43</item>
-        <item>44</item>
-        <item>201</item>
-        <item>213</item>
-        <item>214</item>
-        <item>215</item>
-        <item>250</item>
-        <item>249</item>
-        <item>47</item>
+
+        <item>250</item> <!-- ;ออกกำลังกาย  -->
+        <item>40</item> <!-- ;อุปกรณ์กีฬา  -->
+        <item>201</item> <!-- ;แบดมินตัน  -->
+        <item>41</item> <!-- ;เทนนิส  -->
+        <item>214</item> <!-- ;สนุกเกอร์  -->
+        <item>44</item> <!-- ;สระว่ายน้ำ  -->
+        <item>42</item> <!-- ;ฟุตบอล  -->
+        <item>43</item> <!-- ;ฟิตเนส  -->
+        <item>249</item> <!-- ;บอร์ดเกม  -->
+        <item>213</item> <!-- ;โยคะ  -->
+        <item>215</item> <!-- ;มวยไทย  -->
+        <item>47</item> <!-- ;กีฬาอื่นๆ  -->
+
     </string-array>
 
     <!--    Name-->
     <string-array name="cat_sport_name">
 
+        <item>ออกกำลังกาย</item>
         <item>อุปกรณ์กีฬา</item>
+        <item>แบดมินตัน</item>
         <item>เทนนิส</item>
+        <item>สนุกเกอร์</item>
+        <item>สระว่ายน้ำ</item>
         <item>ฟุตบอล</item>
         <item>ฟิตเนส</item>
-        <item>สระว่ายน้ำ</item>
-        <item>แบดมินตัน</item>
-        <item>โยคะ</item>
-        <item>สนุกเกอร์</item>
-        <item>มวยไทย</item>
-        <item>ออกกำลังกาย</item>
         <item>บอร์ดเกม</item>
+        <item>โยคะ</item>
+        <item>มวยไทย</item>
         <item>กีฬาอื่นๆ</item>
     </string-array>
 
@@ -690,30 +710,32 @@
     <!--    }-->
 
     <string-array name="cat_health_id">
-        <item>114</item>
-        <item>99</item>
-        <item>51</item>
-        <item>50</item>
-        <item>179</item>
-        <item>178</item>
-        <item>202</item>
-        <item>203</item>
-        <item>181</item>
-        <item>48</item>
-        <item>180</item>
-        <item>177</item>
-        <item>49</item>
-        <item>111</item>
-        <item>217</item>
-        <item>53</item>
-        <item>52</item>
-        <item>226</item>
-        <item>232</item>
+        <item>114</item> <!-- ;โรงพยาบาล   -->
+        <item>226</item> <!-- ;รพ.สวนดอก   -->
+        <item>99</item> <!-- ;รักษาทั่วไป   -->
+        <item>51</item> <!-- ;รักษาตา   -->
+        <item>50</item> <!-- ;รักษาฟัน   -->
+        <item>179</item> <!-- ;กระดูกและข้อ   -->
+        <item>178</item> <!-- ;หูคอจมูก   -->
+        <item>202</item> <!-- ;สูติ-นารีเเวช   -->
+        <item>203</item> <!-- ;กุมารเวช  -->
+        <item>181</item> <!-- ;จิตเวช   -->
+        <item>217</item> <!-- ;ผิวหนัง   -->
+        <item>48</item> <!-- ;คลินิกความงาม   -->
+        <item>180</item> <!-- ;แพทย์แผนไทย   -->
+        <item>177</item> <!-- ;แล็ปสุขภาพ   -->
+        <item>53</item> <!-- ;สุขภาพอื่นๆ   -->
+        <item>49</item> <!-- ;ขายยา   -->
+        <item>111</item> <!-- ;แว่นตา   -->
+        <item>232</item> <!-- ;สมุนไพร   -->
+        <item>52</item> <!-- ;รักษาสัตว์   -->
     </string-array>
 
     <!--    Name-->
     <string-array name="cat_health_name">
+
         <item>โรงพยาบาล</item>
+        <item>รพ.สวนดอก</item>
         <item>รักษาทั่วไป</item>
         <item>รักษาตา</item>
         <item>รักษาฟัน</item>
@@ -722,16 +744,15 @@
         <item>สูติ-นารีเเวช</item>
         <item>กุมารเวช</item>
         <item>จิตเวช</item>
+        <item>ผิวหนัง</item>
         <item>คลินิกความงาม</item>
         <item>แพทย์แผนไทย</item>
         <item>แล็ปสุขภาพ</item>
-        <item>ขายยา</item>
-        <item>แว่นตา</item>
-        <item>ผิวหนัง</item>
         <item>สุขภาพอื่นๆ</item>
-        <item>รักษาสัตว์</item>
-        <item>รพ.สวนดอก</item>
+        <item>ร้านขายยา</item>
+        <item>แว่นตา</item>
         <item>สมุนไพร</item>
+        <item>รักษาสัตว์</item>
     </string-array>
 
 

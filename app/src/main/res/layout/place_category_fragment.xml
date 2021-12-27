@@ -30,10 +30,8 @@
         android:paddingStart="4dp"
         android:paddingTop="0dp"
         android:paddingEnd="4dp"
-        android:paddingBottom="54dp"
-        android:verticalSpacing="32dp"
-
-
+        android:paddingBottom="32dp"
+        android:verticalSpacing="16dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <!--    =========BEGIN ADMOB ===============-->

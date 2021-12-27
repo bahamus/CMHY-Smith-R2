@@ -29,7 +29,7 @@ class PlaceDetailFranchise : Fragment() {
     private val myAdapter by lazy { ItemFCAdapter() }
     private lateinit var firebaseAnalytics: FirebaseAnalytics
     //**Receive Argument from Main Fragment**
-    val safeArgs: PlaceDetailFranchiseArgs by navArgs()
+    private val safeArgs: PlaceDetailFranchiseArgs by navArgs()
     private var mInterstitialAd: InterstitialAd? = null
 
 

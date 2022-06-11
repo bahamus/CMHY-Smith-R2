@@ -16,26 +16,22 @@
 
 package com.trinity.android.rgb7.cmhy
 
-import android.app.Activity
 import android.content.Context
-import android.net.*
+import android.net.ConnectivityManager
+import android.net.NetworkInfo
 import android.os.Build
 import android.os.Bundle
 import android.util.Log
 import android.view.*
-import android.widget.*
-import androidx.fragment.app.Fragment
+import android.widget.ImageButton
 import androidx.navigation.fragment.findNavController
-import com.google.android.gms.ads.*
-import com.google.android.gms.ads.interstitial.InterstitialAd
-import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.analytics.ktx.analytics
 import com.google.firebase.analytics.ktx.logEvent
 import com.google.firebase.ktx.Firebase
 
 
-class MainFragment : Fragment() {
+class MainFragment : androidx.fragment.app.Fragment() {
 
     private lateinit var firebaseAnalytics: FirebaseAnalytics
 

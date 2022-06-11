@@ -16,247 +16,471 @@
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainFragment"
-    android:background="@drawable/background">
+    android:background="@drawable/background"
+    tools:context=".MainFragment">
 
-<!--    =========BEGIN ICON BUTTON ZONE ===============-->
-     <ImageButton
-        android:id="@+id/button_government"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:background="@android:color/transparent"
-        android:contentDescription="Government"
-        app:layout_constraintBottom_toTopOf="@+id/button_sport"
-        app:layout_constraintEnd_toStartOf="@+id/button_education"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_auto"
-        app:srcCompat="@drawable/bt_landing_0100" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingClass"
+        tools:layout_editor_absoluteX="-46dp"
+        tools:layout_editor_absoluteY="-16dp">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical"
+            android:paddingStart="0dp"
+            android:paddingTop="0dp"
+            android:paddingEnd="0dp">
 
-    <!--    Health-->
-    <ImageButton
-        android:id="@+id/button_store"
-        android:layout_width="wrap_content"
-        android:layout_height="80dp"
-        android:layout_marginEnd="16dp"
-        android:background="@android:color/transparent"
-        android:contentDescription="Store"
-        app:layout_constraintBottom_toTopOf="@+id/button_travel"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button_education"
-        app:layout_constraintTop_toBottomOf="@+id/button_personal"
-        app:srcCompat="@drawable/bt_landing_0400" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-    <ImageButton
-        android:id="@+id/button_education"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
-        android:contentDescription="Education"
-        app:layout_constraintBottom_toTopOf="@+id/button_religion"
-        app:layout_constraintEnd_toStartOf="@+id/button_store"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button_government"
-        app:layout_constraintTop_toBottomOf="@+id/button_food"
-        app:srcCompat="@drawable/bt_landing_0700" />
+                <!--    =========BEGIN ICON BUTTON ZONE ===============-->
 
-    <ImageButton
-        android:id="@+id/button_sport"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="8dp"
-        android:background="@android:color/transparent"
-        android:contentDescription="Sports"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button_religion"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_government"
-        app:srcCompat="@drawable/bt_landing_0600" />
-
-    <!--    RoomServices-->
-    <ImageButton
-        android:id="@+id/button_health"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:background="@android:color/transparent"
-        android:contentDescription="Health"
-        app:layout_constraintBottom_toTopOf="@+id/button_business"
-        app:layout_constraintEnd_toStartOf="@+id/button_bank"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bt_landing_0800" />
-
-    <ImageButton
-        android:id="@+id/button_room"
-        android:layout_width="wrap_content"
-        android:layout_height="80dp"
-        android:layout_marginEnd="16dp"
-        android:background="@android:color/transparent"
-        android:contentDescription="RoomServices"
-        app:layout_constraintBottom_toTopOf="@+id/button_personal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button_services"
-        app:layout_constraintTop_toBottomOf="@+id/button_transport"
-        app:srcCompat="@drawable/bt_landing_0900" />
+                <!-- Health -->
 
 
-    <!--    Business-->
-
-    <ImageButton
-        android:id="@+id/button_auto"
-        android:layout_width="wrap_content"
-        android:layout_height="80dp"
-        android:layout_marginStart="16dp"
-        android:background="@android:color/transparent"
-        android:contentDescription="Automotive"
-        app:layout_constraintBottom_toTopOf="@+id/button_government"
-        app:layout_constraintEnd_toStartOf="@+id/button_food"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_business"
-        app:srcCompat="@drawable/bt_landing_1000" />
-
-    <ImageButton
-        android:id="@+id/button_food"
-        android:layout_width="wrap_content"
-        android:layout_height="80dp"
-        android:background="@android:color/transparent"
-        android:contentDescription="Food"
-        app:layout_constraintBottom_toTopOf="@+id/button_education"
-        app:layout_constraintEnd_toStartOf="@+id/button_personal"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button_auto"
-        app:layout_constraintTop_toBottomOf="@+id/button_services"
-        app:srcCompat="@drawable/bt_landing_0300" />
-
-    <ImageButton
-        android:id="@+id/button_personal"
-        android:layout_width="wrap_content"
-        android:layout_height="80dp"
-        android:layout_marginEnd="16dp"
-        android:background="@android:color/transparent"
-        android:contentDescription="Personal"
-        app:layout_constraintBottom_toTopOf="@+id/button_store"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button_food"
-        app:layout_constraintTop_toBottomOf="@+id/button_room"
-        app:srcCompat="@drawable/bt_landing_0500" />
-
-    <ImageButton
-        android:id="@+id/button_business"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:background="@android:color/transparent"
-        android:contentDescription="Business"
-        app:layout_constraintBottom_toTopOf="@+id/button_auto"
-        app:layout_constraintEnd_toStartOf="@+id/button_services"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_health"
-        app:srcCompat="@drawable/bt_landing_1100" />
-
-    <!--    Services-->
-    <ImageButton
-        android:id="@+id/button_services"
-        android:layout_width="wrap_content"
-        android:layout_height="80dp"
-        android:background="@android:color/transparent"
-        android:contentDescription="Services"
-        app:layout_constraintBottom_toTopOf="@+id/button_food"
-        app:layout_constraintEnd_toStartOf="@+id/button_room"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button_business"
-        app:layout_constraintTop_toBottomOf="@+id/button_bank"
-        app:srcCompat="@drawable/bt_landing_1200" />
-
-    <!--    Bank-->
-
-    <!--    Religious-->
-
-    <!--    Transport-->
-
-    <!--    Travel-->
-
-    <ImageButton
-        android:id="@+id/button_bank"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
-        android:contentDescription="Bank"
-        app:layout_constraintBottom_toTopOf="@+id/button_services"
-        app:layout_constraintEnd_toStartOf="@+id/button_transport"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button_health"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bt_landing_1300" />
-
-    <ImageButton
-        android:id="@+id/button_religion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:background="@android:color/transparent"
-        android:contentDescription="Religious"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button_travel"
-        app:layout_constraintStart_toEndOf="@+id/button_sport"
-        app:layout_constraintTop_toBottomOf="@+id/button_education"
-        app:srcCompat="@drawable/bt_landing_1400" />
-
-    <ImageButton
-        android:id="@+id/button_transport"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:background="@android:color/transparent"
-        android:contentDescription="Transport"
-        app:layout_constraintBottom_toTopOf="@+id/button_room"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button_bank"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bt_landing_1500" />
-
-    <ImageButton
-        android:id="@+id/button_travel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="8dp"
-        android:background="@android:color/transparent"
-        android:contentDescription="Travel"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button_religion"
-        app:layout_constraintTop_toBottomOf="@+id/button_store"
-        app:srcCompat="@drawable/bt_landing_1600" />
-
-<!--    <ImageView-->
-<!--        android:id="@+id/logoCmhy"-->
-<!--        android:layout_width="70dp"-->
-<!--        android:layout_height="70dp"-->
-
-<!--        app:layout_constraintBottom_toTopOf="@+id/button_bank"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:srcCompat="@drawable/ic_cmhy_logo_2020" />-->
+                <ImageButton
+                    android:id="@+id/button_health"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="Health"
+                    app:layout_constraintEnd_toStartOf="@+id/button_bank"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/bt_landing_0800" />
 
 
+                <!--    Finance -->
 
 
-    <!--    =========END ICON BUTTON ZONE ===============-->
+                <TextView
+                    android:id="@+id/textViewHealt"
+                    style="@style/TextCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="4dp"
+                    android:minLines="2"
+                    android:text="@string/main_cat_health"
+                    app:layout_constraintEnd_toEndOf="@+id/button_health"
+                    app:layout_constraintStart_toStartOf="@+id/button_health"
+                    app:layout_constraintTop_toBottomOf="@+id/button_health"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageButton
+                    android:id="@+id/button_bank"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="Bank"
+                    app:layout_constraintEnd_toStartOf="@+id/button_transport"
+                    app:layout_constraintStart_toEndOf="@+id/button_health"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/bt_landing_1300" />
+
+                <TextView
+                    android:id="@+id/textViewFinace"
+                    style="@style/TextCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="4dp"
+                    android:minLines="2"
+                    android:text="@string/main_cat_finance"
+                    app:layout_constraintEnd_toEndOf="@+id/button_bank"
+                    app:layout_constraintStart_toStartOf="@+id/button_bank"
+                    app:layout_constraintTop_toBottomOf="@+id/button_bank" />
+
+                <!--    RoomServices-->
 
 
-<!--    =============INterner Connection Picture =========-->
+                <!--    Business-->
 
+
+                <ImageButton
+                    android:id="@+id/button_store"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="Store"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/button_education"
+                    app:layout_constraintTop_toBottomOf="@+id/button_personal"
+                    app:srcCompat="@drawable/bt_landing_0400" />
+
+
+                <TextView
+                    android:id="@+id/textViewStore"
+                    style="@style/TextCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:minLines="2"
+                    android:text="@string/main_cat_store"
+                    app:layout_constraintEnd_toEndOf="@+id/button_store"
+                    app:layout_constraintStart_toStartOf="@+id/button_store"
+                    app:layout_constraintTop_toBottomOf="@+id/button_store" />
+
+
+                <ImageButton
+                    android:id="@+id/button_education"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="Education"
+                    app:layout_constraintEnd_toStartOf="@id/button_store"
+                    app:layout_constraintStart_toEndOf="@id/button_government"
+                    app:layout_constraintTop_toBottomOf="@+id/button_food"
+                    app:srcCompat="@drawable/bt_landing_0700"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textViewEducat"
+                    style="@style/TextCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:minLines="2"
+                    android:text="@string/main_cat_education"
+                    app:layout_constraintEnd_toEndOf="@+id/button_education"
+                    app:layout_constraintStart_toStartOf="@+id/button_education"
+                    app:layout_constraintTop_toBottomOf="@+id/button_education"
+                    tools:ignore="MissingConstraints" />
+
+
+                <ImageButton
+                    android:id="@+id/button_sport"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="60dp"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="Sports"
+                    app:layout_constraintEnd_toStartOf="@+id/button_religion"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button_government"
+                    app:srcCompat="@drawable/bt_landing_0600" />
+
+
+                <TextView
+                    android:id="@+id/textViewSport"
+                    style="@style/TextCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:minLines="2"
+                    android:text="@string/main_cat_sport"
+                    app:layout_constraintEnd_toEndOf="@+id/button_sport"
+                    app:layout_constraintStart_toStartOf="@+id/button_sport"
+                    app:layout_constraintTop_toBottomOf="@+id/button_sport" />
+
+                <ImageButton
+                    android:id="@+id/button_government"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="60dp"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="Government"
+                    app:layout_constraintEnd_toStartOf="@+id/button_education"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button_auto"
+                    app:srcCompat="@drawable/bt_landing_0100" />
+
+                <ImageButton
+                    android:id="@+id/button_room"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="RoomServices"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/button_services"
+                    app:layout_constraintTop_toBottomOf="@+id/button_transport"
+                    app:srcCompat="@drawable/bt_landing_0900" />
+
+                <TextView
+                    android:id="@+id/textViewGorv"
+                    style="@style/TextCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:minLines="2"
+                    android:text="@string/main_cat_government"
+                    app:layout_constraintEnd_toEndOf="@+id/button_government"
+                    app:layout_constraintStart_toStartOf="@+id/button_government"
+                    app:layout_constraintTop_toBottomOf="@+id/button_government"
+                    tools:ignore="MissingConstraints" />
+
+
+                <TextView
+                    android:id="@+id/textViewRoom"
+                    style="@style/TextCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="4dp"
+                    android:minLines="2"
+                    android:text="@string/main_cat_room"
+                    app:layout_constraintEnd_toEndOf="@+id/button_room"
+                    app:layout_constraintStart_toStartOf="@+id/button_room"
+                    app:layout_constraintTop_toBottomOf="@+id/button_room"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageButton
+                    android:id="@+id/button_auto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="60dp"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="Automotive"
+                    app:layout_constraintEnd_toStartOf="@+id/button_food"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button_business"
+                    app:srcCompat="@drawable/bt_landing_1000" />
+
+                <TextView
+                    android:id="@+id/textViewAuton"
+                    style="@style/TextCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:minLines="2"
+                    android:text="@string/main_cat_auto"
+                    app:layout_constraintEnd_toEndOf="@+id/button_auto"
+                    app:layout_constraintStart_toStartOf="@+id/button_auto"
+                    app:layout_constraintTop_toBottomOf="@+id/button_auto"
+                    tools:ignore="MissingConstraints" />
+
+                <!--    Services-->
+
+                <!--    Bank-->
+
+                <!--    Religious-->
+
+                <!--    Transport-->
+
+                <!--    Travel-->
+
+
+                <ImageButton
+                    android:id="@+id/button_food"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="Food"
+                    app:layout_constraintEnd_toStartOf="@+id/button_personal"
+                    app:layout_constraintStart_toEndOf="@+id/button_auto"
+                    app:layout_constraintTop_toBottomOf="@+id/button_services"
+                    app:srcCompat="@drawable/bt_landing_0300" />
+
+
+                <ImageButton
+                    android:id="@+id/button_personal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="Personal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/button_food"
+                    app:layout_constraintTop_toBottomOf="@+id/button_room"
+                    app:srcCompat="@drawable/bt_landing_0500" />
+
+                <TextView
+                    android:id="@+id/textViewPersonal"
+                    style="@style/TextCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:minLines="2"
+                    android:text="@string/main_cat_personal"
+                    app:layout_constraintEnd_toEndOf="@+id/button_personal"
+                    app:layout_constraintStart_toStartOf="@+id/button_personal"
+                    app:layout_constraintTop_toBottomOf="@+id/button_personal"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/textViewFood"
+                    style="@style/TextCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:minLines="2"
+                    android:text="@string/main_cat_food"
+                    app:layout_constraintEnd_toEndOf="@+id/button_food"
+                    app:layout_constraintStart_toStartOf="@+id/button_food"
+                    app:layout_constraintTop_toBottomOf="@+id/button_food"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageButton
+                    android:id="@+id/button_business"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="55dp"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="Business"
+                    app:layout_constraintEnd_toStartOf="@+id/button_services"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button_health"
+                    app:srcCompat="@drawable/bt_landing_1100" />
+
+
+                <TextView
+                    android:id="@+id/textViewBusiness"
+                    style="@style/TextCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="4dp"
+                    android:minLines="2"
+                    android:text="@string/main_cat_bussiness"
+                    app:layout_constraintEnd_toEndOf="@+id/button_business"
+                    app:layout_constraintStart_toStartOf="@+id/button_business"
+                    app:layout_constraintTop_toBottomOf="@+id/button_business"
+                    tools:ignore="MissingConstraints" />
+
+
+                <ImageButton
+                    android:id="@+id/button_services"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55dp"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="Services"
+                    app:layout_constraintEnd_toStartOf="@+id/button_room"
+                    app:layout_constraintStart_toEndOf="@+id/button_business"
+                    app:layout_constraintTop_toBottomOf="@+id/button_bank"
+                    app:srcCompat="@drawable/bt_landing_1200" />
+
+                <TextView
+                    android:id="@+id/textVieServices"
+                    style="@style/TextCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="4dp"
+                    android:minLines="2"
+                    android:text="@string/main_cat_services"
+                    app:layout_constraintEnd_toEndOf="@+id/button_services"
+                    app:layout_constraintStart_toStartOf="@+id/button_services"
+                    app:layout_constraintTop_toBottomOf="@+id/button_services"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageButton
+                    android:id="@+id/button_religion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="60dp"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="Religious"
+                    app:layout_constraintEnd_toStartOf="@id/button_travel"
+                    app:layout_constraintStart_toEndOf="@id/button_sport"
+
+                    app:layout_constraintTop_toBottomOf="@+id/button_education"
+                    app:srcCompat="@drawable/bt_landing_1400" />
+
+
+                <TextView
+                    android:id="@+id/textViewReligion"
+                    style="@style/TextCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:minLines="2"
+                    android:text="@string/main_cat_religion"
+                    app:layout_constraintEnd_toEndOf="@+id/button_religion"
+                    app:layout_constraintStart_toStartOf="@+id/button_religion"
+                    app:layout_constraintTop_toBottomOf="@+id/button_religion" />
+
+
+                <ImageButton
+                    android:id="@+id/button_transport"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="Transport"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/button_bank"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/bt_landing_1500" />
+
+                <TextView
+                    android:id="@+id/textViewTransport"
+                    style="@style/TextCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="4dp"
+                    android:minLines="2"
+                    android:text="@string/main_cat_transport"
+                    app:layout_constraintEnd_toEndOf="@+id/button_transport"
+                    app:layout_constraintStart_toStartOf="@+id/button_transport"
+                    app:layout_constraintTop_toBottomOf="@+id/button_transport" />
+
+                <ImageButton
+                    android:id="@+id/button_travel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="Travel"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/button_religion"
+                    app:layout_constraintTop_toBottomOf="@+id/button_store"
+                    app:srcCompat="@drawable/bt_landing_1600" />
+
+
+                <TextView
+                    android:id="@+id/textViewTrip"
+                    style="@style/TextCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:minLines="2"
+                    android:text="@string/main_cat_travel"
+                    app:layout_constraintEnd_toEndOf="@+id/button_travel"
+                    app:layout_constraintStart_toStartOf="@+id/button_travel"
+                    app:layout_constraintTop_toBottomOf="@+id/button_travel" />
+
+
+
+
+                <!--    =========END ICON BUTTON ZONE ===============-->
+
+
+                <!--    =============INterner Connection Picture =========-->
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

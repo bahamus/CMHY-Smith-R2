@@ -89,6 +89,7 @@ dependencies {
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.firebase:firebase-core:20.0.2'
     def nav_version = "2.3.5"
     implementation 'androidx.appcompat:appcompat:1.0.0'
 

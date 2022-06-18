@@ -29,16 +29,16 @@
 
     <!--    Group Color-->
     <color name="colorGovenment">#787876</color>
-    <color name="colorFood">#9A8FBA</color>
+    <color name="colorFood">#7C5D99</color>
     <color name="colorShop">#E97F57</color>
     <color name="colorPersonal">#FA6E6D</color>
     <color name="colorSport">#FB8F23</color>
     <color name="colorHealth">#00AE89</color>
     <color name="colorAuto">#CE4152</color>
     <color name="colorBusiness">#4EA6B6</color>
-    <color name="colorServices">#787876</color>
+    <color name="colorServices">#3353A6</color>
     <color name="colorBank">#787876</color>
-    <color name="colorReligeon">#FFBE49</color>
+    <color name="colorReligeon">#C47C54</color>
     <color name="colorTransport">#604041</color>
     <color name="colorTravel">#B14565</color>
 

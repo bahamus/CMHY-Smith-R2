@@ -32,7 +32,7 @@
         android:paddingEnd="4dp"
         android:paddingBottom="32dp"
         android:verticalSpacing="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <!--    =========BEGIN ADMOB ===============-->
     <com.google.android.gms.ads.AdView

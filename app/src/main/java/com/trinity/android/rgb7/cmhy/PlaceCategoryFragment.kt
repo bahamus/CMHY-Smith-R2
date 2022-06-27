@@ -90,9 +90,9 @@ class PlaceCategoryFragment : Fragment() {
 
         view.findViewById<AdView>(R.id.adViewBanner).apply {
 
-            val testDeviceIds = listOf("407ABC6C56886BFC982CA879C25A4138")
-            val configuration = RequestConfiguration.Builder().setTestDeviceIds(testDeviceIds).build()
-            MobileAds.setRequestConfiguration(configuration)
+//            val testDeviceIds = listOf("407ABC6C56886BFC982CA879C25A4138")
+//            val configuration = RequestConfiguration.Builder().setTestDeviceIds(testDeviceIds).build()
+//            MobileAds.setRequestConfiguration(configuration)
 //            val location = Location("AdMobProvider")
 //            location.latitude = 18.790218528898254
 //            location.latitude = 98.98770239881131

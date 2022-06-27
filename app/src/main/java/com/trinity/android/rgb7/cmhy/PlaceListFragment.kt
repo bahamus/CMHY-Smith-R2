@@ -29,7 +29,6 @@ class PlaceListFragment : Fragment() {
     private lateinit var viewModel: MainViewModel
     private val myAdapter by lazy { ItemsRVAdapter() }
     private lateinit var firebaseAnalytics: FirebaseAnalytics
-    private var mInterstitialAd: InterstitialAd? = null
     val safeArgs: PlaceListFragmentArgs by navArgs()
 
 
@@ -61,52 +60,8 @@ class PlaceListFragment : Fragment() {
 
 
         /**  BEGIN Interstitial ADS  */
-        // ca-app-pub-4619737788076129/2759313796  REAL CODE
-        // ca-app-pub-3940256099942544/1033173712 CODE TEST
-        val adRequest = AdRequest.Builder().build()
 
-        InterstitialAd.load(context,"ca-app-pub-4619737788076129/2759313796", adRequest, object : InterstitialAdLoadCallback() {
-            override fun onAdFailedToLoad(adError: LoadAdError) {
-                Log.d(ContentValues.TAG, adError.message)
-                mInterstitialAd = null
-            }
 
-            override fun onAdLoaded(interstitialAd: InterstitialAd) {
-                Log.d(ContentValues.TAG, "Ad was loaded.")
-                mInterstitialAd = interstitialAd
-            }
-        })
-
-        //LOG
-        mInterstitialAd?.fullScreenContentCallback = object: FullScreenContentCallback() {
-            override fun onAdDismissedFullScreenContent() {
-                Log.d(ContentValues.TAG, "Ad was dismissed.")
-            }
-
-            override fun onAdFailedToShowFullScreenContent(adError: AdError?) {
-                Log.d(ContentValues.TAG, "Ad failed to show.")
-            }
-
-            override fun onAdShowedFullScreenContent() {
-                Log.d(ContentValues.TAG, "Ad showed fullscreen content.")
-                mInterstitialAd = null;
-            }
-        }
-
-        //Show ADS
-        if (mInterstitialAd != null) {
-            mInterstitialAd?.show(context as Activity)
-        } else {
-            Log.d("TAG", "The interstitial ad wasn't ready yet.")
-        }
-        /**  END Interstitial ADS  */
-        /**  BEGIN Admob */
-        // Initialize the Mobile Ads SDK.
-//        MobileAds.initialize(context)
-//        view.findViewById<AdView>(R.id.adViewBanner).apply {
-//            val adRequest = AdRequest.Builder().build()
-//            loadAd(adRequest)
-//        }
 
         /**  END Admob */
 
@@ -120,6 +75,8 @@ class PlaceListFragment : Fragment() {
         val catIdPlusName = "cat_$catIdArgs"
         actionBar.title = getString(resources.getIdentifier(catIdPlusName, "string",context?.packageName))
 
+        /**  END  Action Bar Tile Text */
+
         /**  BEGIN Firebase Analytic */
         // Category ID
         firebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT){
@@ -128,7 +85,20 @@ class PlaceListFragment : Fragment() {
         }
         /**  END Firebase Analytic */
 
-        /**  END  Action Bar Tile Text */
+
+
+        /**  BEGIN Admob */
+        // Initialize the Mobile Ads SDK.
+        MobileAds.initialize(context)
+
+        view.findViewById<AdView>(R.id.adViewBanner).apply {
+
+            val adRequest = AdRequest.Builder().build()
+            loadAd(adRequest)
+
+        }
+
+        /**  END Admob */
 
 
         /**  BEGIN Recycler Place List Json  */

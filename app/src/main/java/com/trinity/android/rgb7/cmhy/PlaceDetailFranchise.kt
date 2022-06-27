@@ -30,7 +30,7 @@ class PlaceDetailFranchise : Fragment() {
     private lateinit var firebaseAnalytics: FirebaseAnalytics
     //**Receive Argument from Main Fragment**
     private val safeArgs: PlaceDetailFranchiseArgs by navArgs()
-    private var mInterstitialAd: InterstitialAd? = null
+
 
 
 
@@ -72,44 +72,7 @@ class PlaceDetailFranchise : Fragment() {
             param(FirebaseAnalytics.Param.ITEM_ID,franchise)
         }
         /**  END Firebase Analytic */
-        /**  BEGIN Interstitial ADS  */
-        // ca-app-pub-4619737788076129/2759313796  REAL CODE
-        // ca-app-pub-3940256099942544/1033173712 CODE TEST
-        val adRequest = AdRequest.Builder().build()
 
-        InterstitialAd.load(context,"ca-app-pub-4619737788076129/7276287070", adRequest, object : InterstitialAdLoadCallback() {
-            override fun onAdFailedToLoad(adError: LoadAdError) {
-                Log.d(ContentValues.TAG, adError.message)
-                mInterstitialAd = null
-            }
-
-            override fun onAdLoaded(interstitialAd: InterstitialAd) {
-                Log.d(ContentValues.TAG, "Ad was loaded.")
-                mInterstitialAd = interstitialAd
-            }
-        })
-
-        //LOG
-        mInterstitialAd?.fullScreenContentCallback = object: FullScreenContentCallback() {
-            override fun onAdDismissedFullScreenContent() {
-                Log.d(ContentValues.TAG, "Ad was dismissed.")
-            }
-            override fun onAdFailedToShowFullScreenContent(adError: AdError?) {
-                Log.d(ContentValues.TAG, "Ad failed to show.")
-            }
-            override fun onAdShowedFullScreenContent() {
-                Log.d(ContentValues.TAG, "Ad showed fullscreen content.")
-                mInterstitialAd = null;
-            }
-        }
-
-        //Show ADS
-        if (mInterstitialAd != null) {
-            mInterstitialAd?.show(context as Activity)
-        } else {
-            Log.d("TAG", "The interstitial ad wasn't ready yet.")
-        }
-        /**  END Interstitial ADS  */
 
         /**  BEGIN Admob */
         // Initialize the Mobile Ads SDK.

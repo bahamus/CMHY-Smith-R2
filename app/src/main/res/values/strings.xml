@@ -90,6 +90,8 @@
     <string name="admob_banner_franchise_list">ca-app-pub-4619737788076129/2575239719</string>
     <string name="admob_banner_description">ca-app-pub-4619737788076129/2865378786</string>
     <string name="admob_interstitial">ca-app-pub-4619737788076129/7287377475</string>
+    <string name="admob_banner_place_list_smart_footer">ca-app-pub-4619737788076129/4522790010
+</string>
 
 
     <!--    Ad Mob TEST ID-->
@@ -152,7 +154,7 @@
     <string name="cat_212">สเต็ก </string>
     <string name="cat_208">คาเฟ่ 24HR </string>
     <string name="cat_220">ผัดไทย </string>
-    <string name="cat_216">ชาบู/สุกี้</string>
+    <string name="cat_216">สุกี้/หม้อไฟ/หมูจุ่ม</string>
     <string name="cat_229">หม่าล่า </string>
     <string name="cat_237">ชานมไข่มุก </string>
     <string name="cat_238">ลูกชิ้น </string>
@@ -491,7 +493,8 @@
 
         <item>148</item> <!-- ;บุฟเฟ่ต์  -->
         <item>25</item> <!-- ;ปิ้งย่าง/จุ่ม  -->
-        <item>216</item> <!-- ;ชาบู/สุกี้  -->
+        <item>216</item> <!-- สุกี้  -->
+        <item>269</item> <!-- ;ชาบู -->
         <item>26</item> <!-- ;เบเกอรี่  -->
         <item>27</item> <!-- ;กาแฟ/คาเฟ่ -->
         <item>212</item> <!-- ;สเต็ก  -->
@@ -524,7 +527,7 @@
         <item>272</item> <!-- ;หมูสะเต๊ะ  -->
         <item>271</item> <!-- ;ข้าวมันไก่  -->
         <item>270</item> <!-- ;ข้าวขาหมู  -->
-        <item>269</item> <!-- ;ชาบู -->
+
         <item>268</item> <!-- ;ขนมหวาน -->
 
 
@@ -538,7 +541,8 @@
 
         <item>บุฟเฟ่ต์</item>
         <item>ปิ้งย่าง/จุ่ม</item>
-        <item>ชาบู/สุกี้</item>
+        <item>สุกี้/หม้อไฟ</item>
+        <item>ชาบู</item>
         <item>เบเกอรี่</item>
         <item>กาแฟ/คาเฟ่</item>
         <item>สเต็ก</item>
@@ -571,7 +575,7 @@
         <item>หมูสะเต๊ะ</item>
         <item>ข้าวมันไก่</item>
         <item>ข้าวขาหมู</item>
-        <item>ชาบู</item>
+
         <item>ขนมหวาน</item>
 
 

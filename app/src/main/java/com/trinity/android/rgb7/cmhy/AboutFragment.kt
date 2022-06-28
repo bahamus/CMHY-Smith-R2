@@ -43,6 +43,12 @@ class AboutFragment : Fragment() {
 
         /** BEGIN HTML Description Display */
 
+        //Text Staff
+        view.findViewById<TextView>(R.id.about_staff).apply {
+            text = HtmlCompat.fromHtml(getString(R.string.about_staff), HtmlCompat.FROM_HTML_MODE_LEGACY)
+
+        }
+
         //Text Report HTML
         view.findViewById<TextView>(R.id.about_text).apply {
             text = HtmlCompat.fromHtml(getString(R.string.about_document), HtmlCompat.FROM_HTML_MODE_LEGACY)

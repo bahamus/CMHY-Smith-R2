@@ -16,6 +16,7 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
@@ -181,17 +182,36 @@ class PlaceDetailFragment : Fragment() {
                         view.findViewById<TextView>(R.id.tel_01_text).apply {
                             text = telNo
                         }
+                        //**Tel No.3 Hidden space = 0**
+                        if(size==1) {
+                            view.findViewById<TextView>(R.id.tel_03_text).isInvisible
+                            view.findViewById<TextView>(R.id.tel_03_text).apply {
+                                height = 0
+                            }
+                        }
+
                         if(size>1) {
                             telNo = temp2[1].toString()
                             view.findViewById<TextView>(R.id.tel_02_text).apply {
                                 text = telNo
                             }
+                            //**Tel No.3 Hidden space = 0**
+                            if(size==2) {
+                                view.findViewById<TextView>(R.id.tel_03_text).isInvisible
+                                view.findViewById<TextView>(R.id.tel_03_text).apply {
+                                    height = 0
+                                }
+                            }
+
                         }
                         if(size>2) {
                             telNo = temp2[2].toString()
                             view.findViewById<TextView>(R.id.tel_03_text).apply {
                                 text = telNo
                             }
+                            //Tel No.3 Hidden
+                            view.findViewById<TextView>(R.id.tel_03_text).visibility
+
                         }
                     }
                 } else { // Deactive

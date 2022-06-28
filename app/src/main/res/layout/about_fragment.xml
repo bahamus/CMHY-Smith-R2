@@ -55,17 +55,30 @@
                     app:layout_constraintTop_toBottomOf="@+id/cmhy_logo" />
 
                 <TextView
-                    android:id="@+id/textView12"
+                    android:id="@+id/textView13"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
+                    android:text="@string/app_codename"
+                    android:textColor="@color/browser_actions_title_color"
+                    android:textSize="15dp"
+                    android:textStyle="normal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
                     android:text="@string/about_comment_text"
                     android:textColor="@color/colorTextSecond"
                     android:textSize="15dp"
                     android:textStyle="normal"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView11" />
+                    app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
 
                 <Button
@@ -73,7 +86,7 @@
                     style="@style/buttonPrimary"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="24dp"
+                    android:layout_marginTop="32dp"
                     android:text="Version"
                     android:textAllCaps="false"
                     app:icon="@drawable/ic_baseline_check_circle_outline_24"
@@ -102,6 +115,24 @@
                     app:layout_constraintTop_toBottomOf="@+id/view" />
 
                 <TextView
+                    android:id="@+id/about_staff"
+                    style="@style/TextReadMore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:padding="8dp"
+                    android:text="@string/about_staff"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/rgb7_logo" />
+
+                <TextView
                     android:id="@+id/about_text"
                     style="@style/TextReadMore"
                     android:layout_width="wrap_content"
@@ -117,7 +148,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/rgb7_logo" />
+                    app:layout_constraintTop_toBottomOf="@id/about_staff" />
 
                 <TextView
                     android:id="@+id/textView2"
@@ -136,14 +167,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32dp"
-                    android:layout_marginTop="24dp"
+                    android:layout_marginTop="16dp"
                     android:layout_marginEnd="32dp"
-                    android:textAlignment="center"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
                     android:text="@string/about_extend_amphor"
+                    android:textAlignment="center"
                     android:textColor="@color/colorAuto"
                     android:textSize="14sp"
-                    android:paddingEnd="16dp"
-                    android:paddingStart="16dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView12" />

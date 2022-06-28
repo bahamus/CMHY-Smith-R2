@@ -4,7 +4,7 @@
 
     <item
         android:id="@+id/google_navigator"
-        android:icon="@drawable/ic_navigator_white"
+        android:icon="@drawable/ic_navigator_white_e2"
         android:title="@string/appbarMap"
-        app:showAsAction="always"/>
+        app:showAsAction="always" />
 </menu>

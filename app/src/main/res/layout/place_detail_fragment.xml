@@ -393,9 +393,6 @@
                     android:paddingTop="8dp"
                     android:paddingEnd="4dp">
 
-
-
-
                 </androidx.constraintlayout.widget.ConstraintLayout>
                 <!--    =========END ADMOB ===============-->
 

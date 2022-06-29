@@ -218,6 +218,10 @@ class PlaceDetailFragment : Fragment() {
                     view.findViewById<TextView>(R.id.tel_01_text).apply {
                         text = null
                     }
+                    view.findViewById<TextView>(R.id.tel_03_text).isInvisible
+                    view.findViewById<TextView>(R.id.tel_03_text).apply {
+                        height = 0
+                    }
                 }
 
 

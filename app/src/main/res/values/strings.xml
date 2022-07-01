@@ -15,9 +15,11 @@
 
 <resources>
     <string name="app_name">CMHY</string>
-    <string name="app_version">1.2.0  (Build 102200) </string>
+    <string name="app_version">1.2.0  (Build 102201) </string>
     <string name="app_codename">- Merovingian -</string>
     <string name="main_text">1.2.0</string>
+    <string name="apo_version_html"><![CDATA[ <b>Version</b> 1.2.0 (Build 102201) ]]></string>
+
 
 
     <!-- Menu strings -->
@@ -68,7 +70,7 @@
 
     <!--    About Us String-->
     <string name="about_version_text">Version</string>
-    <string name="about_comment_text">***เวอร์ชั่นนี้ บริการเข้อมูลฉพาะ อำเภอเมืองเชียงใหม่**</string>
+    <string name="about_comment_text">**เวอร์ชั่น บริการข้อมูลฉพาะอำเภอเมืองเชียงใหม่**</string>
     <string name="about_extend_amphor">**สำหรับท่านที่ต้องการข้อมูลนอกเหนือจากอำเภอเมือง สามารถสืบค้นและดูข้อมูลได้ที่เว็บไซต์เราที่ www.cmhy.city </string>
 
 
@@ -91,6 +93,7 @@
     <string name="admob_banner_franchise_list">ca-app-pub-4619737788076129/2575239719</string>
     <string name="admob_banner_description">ca-app-pub-4619737788076129/2865378786</string>
     <string name="admob_interstitial">ca-app-pub-4619737788076129/7287377475</string>
+    <string name="admob_banner_place_detail_footer">ca-app-pub-4619737788076129/6723455677</string>
     <string name="admob_banner_place_list_smart_footer">ca-app-pub-4619737788076129/4522790010
 </string>
 
@@ -1244,8 +1247,8 @@ https://www.cmhy.city/terms/  </p>
 
     <string name="about_staff"><![CDATA[
     <h4>STAFF </h4>
-    <p><b>Back-End & APPS Programer</b> <br> Passawet Noytachang</p>
-    <p><b>Designer UX/UI & APPS Programer</b> <br> Sudchay Kanchana</p>
+    <p><b>Back-End & APPS Programmer</b> <br> Passawet Noytachang</p>
+    <p><b>Designer UX/UI & APPS Programmer</b> <br> Sudchay Kanchana</p>
     <p><b>Tester Support</b> <br> Ronnakorn Mahasawin </p>
  ]]></string>
 

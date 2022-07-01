@@ -753,7 +753,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="0dp"
         ads:adSize="SMART_BANNER"
-        ads:adUnitId="@string/admob_banner_place_detail"
+        ads:adUnitId="@string/admob_banner_place_detail_footer"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

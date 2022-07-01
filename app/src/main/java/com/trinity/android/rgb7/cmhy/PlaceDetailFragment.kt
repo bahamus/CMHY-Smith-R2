@@ -23,9 +23,6 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.google.android.gms.ads.*
-import com.google.android.gms.ads.interstitial.InterstitialAd
-import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 import com.trinity.android.rgb7.cmhy.repository.Repository
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.OnMapReadyCallback
@@ -38,6 +35,9 @@ import com.google.firebase.analytics.ktx.analytics
 import com.google.firebase.analytics.ktx.logEvent
 import com.google.firebase.ktx.Firebase
 import com.squareup.picasso.Picasso
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.AdView
+import com.google.android.gms.ads.MobileAds
 
 
 class PlaceDetailFragment : Fragment() {
@@ -81,17 +81,20 @@ class PlaceDetailFragment : Fragment() {
 
 
 
-        /**  BEGIN Admob Samart Banner*/
-        // Initialize Smart Banner at top Image
+        /**  BEGIN Admob */
+        // Initialize the Mobile Ads SDK.
         MobileAds.initialize(context)
+
         view.findViewById<AdView>(R.id.adViewBanner).apply {
 
 
             val adRequest = AdRequest.Builder().build()
             loadAd(adRequest)
 
+
         }
-        /**  END Admob Samart Banner */
+
+        /**  END Admob */
 
 
 
@@ -182,6 +185,12 @@ class PlaceDetailFragment : Fragment() {
                         view.findViewById<TextView>(R.id.tel_01_text).apply {
                             text = telNo
                         }
+                        if(size==0){
+                            view.findViewById<TextView>(R.id.tel_03_text).isInvisible
+                            view.findViewById<TextView>(R.id.tel_03_text).apply {
+                                height = 0
+                            }
+                        }
                         //**Tel No.3 Hidden space = 0**
                         if(size==1) {
                             view.findViewById<TextView>(R.id.tel_03_text).isInvisible
@@ -213,14 +222,17 @@ class PlaceDetailFragment : Fragment() {
                             view.findViewById<TextView>(R.id.tel_03_text).visibility
 
                         }
+
+                    }else{
+                        //**if no telphone Tel No.3 Hidden space = 0**
+                        view.findViewById<TextView>(R.id.tel_03_text).isInvisible
+                        view.findViewById<TextView>(R.id.tel_03_text).apply {
+                            height = 0
+                        }
                     }
                 } else { // Deactive
                     view.findViewById<TextView>(R.id.tel_01_text).apply {
                         text = null
-                    }
-                    view.findViewById<TextView>(R.id.tel_03_text).isInvisible
-                    view.findViewById<TextView>(R.id.tel_03_text).apply {
-                        height = 0
                     }
                 }
 

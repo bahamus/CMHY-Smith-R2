@@ -89,7 +89,7 @@ class PlaceListFragment : Fragment() {
 
         /**  BEGIN Admob */
         // Initialize the Mobile Ads SDK.
-        MobileAds.initialize(context)
+        MobileAds.initialize(requireContext())
 
         view.findViewById<AdView>(R.id.adViewBanner).apply {
 

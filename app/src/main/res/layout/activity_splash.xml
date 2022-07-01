@@ -69,11 +69,10 @@
       android:id="@+id/textView4"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginEnd="25dp"
       android:layout_marginBottom="6dp"
       android:text="From"
-      android:textSize="12sp"
       android:textColor="@color/colorWhiteSecond"
+      android:textSize="12sp"
       app:layout_constraintBottom_toTopOf="@+id/imageView3"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent" />

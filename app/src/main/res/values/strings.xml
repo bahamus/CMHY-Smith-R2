@@ -21,7 +21,6 @@
     <string name="apo_version_html"><![CDATA[ <b>Version</b> 1.2.0 (Build 102201) ]]></string>
 
 
-
     <!-- Menu strings -->
     <string name="search_page">Searching...</string>
     <string name="settings">Settings</string>
@@ -127,7 +126,7 @@
     <!--  ============  TEXT CATEGORY FOR PLACE LIST APPBAR =============  -->
 
     <!--     Government-->
-    <string name="cat_23">งานราชการ</string>
+    <string name="cat_23">หน่วยงานราชการ</string>
     <string name="cat_10">สำนักงานรัฐ</string>
     <string name="cat_116">สถานกงสุล</string>
     <string name="cat_12">ไปรษณีย์ไทย</string>
@@ -144,7 +143,7 @@
     <string name="cat_30">ฟาสฟู๊ด</string>
     <string name="cat_124">ข้าวซอย</string>
     <string name="cat_147">เครื่องดื่ม</string>
-    <string name="cat_25">ปิ้งย่าง/จุ่ม</string>
+    <string name="cat_25">ปิ้งย่าง</string>
     <string name="cat_149">อาหารนานาชาติ </string>
     <string name="cat_100">อาหารพื้นเมือง </string>
     <string name="cat_150">มังสวิรัติ </string>
@@ -152,7 +151,7 @@
     <string name="cat_164">อาหารปักษ์ใต้ </string>
     <string name="cat_166">ไอศกรีม </string>
     <string name="cat_231">ขนมจีน </string>
-    <string name="cat_29">ของว่าง </string>
+    <string name="cat_29">ของว่าง/ขนม</string>
     <string name="cat_204">ข้าวต้ม-โจ๊ก </string>
     <string name="cat_205">อาหารอีสาน </string>
     <string name="cat_212">สเต็ก </string>
@@ -197,7 +196,7 @@
     <string name="cat_37">ตัดผมชาย</string>
     <string name="cat_38">เครื่องสำอางค์</string>
     <string name="cat_123">เสื้อผ้ามือสอง</string>
-    <string name="cat_153">ตัดเสื้อ</string>
+    <string name="cat_153">ห้องเสื้อ-ตัดชุด</string>
     <string name="cat_154">เครื่องแต่งกาย</string>
     <string name="cat_197">ชุดเช่า</string>
     <string name="cat_199">แม่และเด็ก</string>
@@ -227,7 +226,7 @@
     <string name="cat_122">สถาบันการสอน</string>
     <string name="cat_176">กวดวิชา</string>
     <string name="cat_144">ห้องสมุด</string>
-    <string name="cat_256">ดนตรี/เต้น</string>
+    <string name="cat_256">สอนดนตรี/เต้น</string>
 
     <!--    HEALTH-->
     <string name="cat_114">โรงพยาบาล</string>
@@ -242,12 +241,12 @@
     <string name="cat_48">คลินิกความงาม</string>
     <string name="cat_180">แพทย์แผนไทย</string>
     <string name="cat_177">แล็ปสุขภาพ</string>
-    <string name="cat_49">ขายยา</string>
+    <string name="cat_49">ร้านขายยา</string>
     <string name="cat_111">แว่นตา</string>
     <string name="cat_217">ผิวหนัง</string>
     <string name="cat_53">สุขภาพอื่นๆ</string>
     <string name="cat_52">รักษาสัตว์</string>
-    <string name="cat_226">รพ.สวนดอก</string>
+    <string name="cat_226">โรงพยาบาลสวนดอก</string>
     <string name="cat_232">สมุนไพร</string>
 
     <!--    ROOM-->
@@ -259,7 +258,7 @@
     <string name="cat_193">หมู่บ้านจัดสรร</string>
     <string name="cat_58">คอนโดมีเนียม</string>
     <string name="cat_182">รีสอร์ท</string>
-    <string name="cat_84">อื่นๆ</string>
+    <string name="cat_84">ที่พัก อื่นๆ</string>
 
     <!--  AUTO-->
     <string name="cat_113">ปั๊มน้ำมัน</string>
@@ -268,7 +267,7 @@
     <string name="cat_68">โชว์รูมรถยนต์</string>
     <string name="cat_146">ซ่อมมอเตอร์ไซค์</string>
     <string name="cat_127">โชว์รูมมอเตอร์ไซต์</string>
-    <string name="cat_61">ยาง</string>
+    <string name="cat_61">ร้านยาง</string>
     <string name="cat_63">ประดับยนต์</string>
     <string name="cat_67">รถให้เช่า</string>
     <string name="cat_66">รถมือสอง</string>
@@ -277,7 +276,7 @@
     <string name="cat_70">จักรยาน</string>
     <string name="cat_224">อะไหล่ยนต์</string>
     <string name="cat_245">ปั๊มหยอดเหรียญ</string>
-    <string name="cat_251">สถานีชาร์จ</string>
+    <string name="cat_251">สถานีชาร์จรถยนต์ไฟฟ้า</string>
     <string name="cat_264">แบตเตอรี่รถ</string>
     <string name="cat_263">บริการตรวจสภาพรถ (ตรอ.)</string>
 
@@ -291,9 +290,9 @@
     <string name="cat_222">อุปกรณ์มือถือ</string>
     <string name="cat_206">คอมพิวเตอร์</string>
     <string name="cat_16">อุปกรณ์ไฟฟ้า</string>
-    <string name="cat_223">กรอบรูป</string>
+    <string name="cat_223">ร้านกรอบรูป</string>
     <string name="cat_62">กุญแจ</string>
-    <string name="cat_72">ดนตรี</string>
+    <string name="cat_72">ดนตรี/เครื่องเสียง</string>
     <string name="cat_15">เฟอร์นิเจอร์</string>
     <string name="cat_19">ตกแต่งภายใน</string>
     <string name="cat_73">เครื่องเขียน</string>
@@ -305,13 +304,13 @@
     <string name="cat_80">สิ่งพิมพ์</string>
     <string name="cat_81">อุปกรณ์ช่าง</string>
     <string name="cat_118">การเกษตร</string>
-    <string name="cat_119">ดอกไม้</string>
+    <string name="cat_119">ร้านดอกไม้</string>
     <string name="cat_14">ตกแต่งสวน</string>
     <string name="cat_196">เครื่องครัว</string>
     <string name="cat_75">เครื่องประดับ</string>
-    <string name="cat_125">สังฆภัณฑ์</string>
+    <string name="cat_125">ร้านของใช้ ในพิธีทางศาสนา</string>
     <string name="cat_82">ธุรกิจทั่วไป</string>
-    <string name="cat_255">โกดังญี่ปุ่น</string>
+    <string name="cat_255">โกดังสินค้าญี่ปุ่น</string>
     <string name="cat_22">ที่พักอาศัย</string>
 
     <!--   SERVICES-->
@@ -331,10 +330,10 @@
     <string name="cat_87">อาร์ตแกลเลอรี่</string>
     <string name="cat_185">ประกันภัย</string>
     <string name="cat_115">บริการห้องน้ำ</string>
-    <string name="cat_186">บริการจอดรถ</string>
+    <string name="cat_186">บริการจอดรถ/ฝากรถ</string>
     <string name="cat_110">ตู้ซักผ้าเหรียญ</string>
     <string name="cat_194">ตู้น้ำหยอดเหรียญ</string>
-    <string name="cat_240">หวยลลากกินแบ่ง</string>
+    <string name="cat_240">หวย /ลลากกินแบ่งรัฐบาล</string>
     <string name="cat_207">ซอฟท์แวร์</string>
     <string name="cat_76">ทนาย</string>
     <string name="cat_209">ส่งแก๊ส</string>
@@ -342,7 +341,7 @@
     <string name="cat_225">มูลนิธิ</string>
     <string name="cat_227">โรงภาพยนตร์</string>
     <string name="cat_230">โคเวิร์คกิ้งสเปซ</string>
-    <string name="cat_242">น้ำแข็ง</string>
+    <string name="cat_242">บริการน้ำแข็ง</string>
     <string name="cat_241">รีไซเคิล</string>
     <string name="cat_7">พิพิธภัณฑ์</string>
     <string name="cat_108">ตู้ไปรษณีย์</string>
@@ -362,7 +361,7 @@
     <string name="cat_190">ธนาคาร ยูโอบี</string>
     <string name="cat_191">ธนาคาร ซีไอเอ็มบี</string>
     <string name="cat_261">ธนาคาร ทีเอ็มบีธนชาต</string>
-    <string name="cat_253">ธนาคาร ธ.อ.ส</string>
+    <string name="cat_253">ธนาคาร ธอส.</string>
     <string name="cat_252">ธนาคาร ไทยเครดิต</string>
     <string name="cat_89">ธนาคารอื่นๆ</string>
     <string name="cat_91">แลกเปลี่ยนเงิน</string>
@@ -407,15 +406,15 @@
 
     <!--  ============  TEXT CATEGORY FOR PLACE CATEGORY BUTT APPBAR =============  -->
 
-    x
+    <!--   *** MAIN CATEGORY *********-->
 
     <!--    Code ID Name-->
 
     <string name="main_cat_government">ราชการ</string>
     <string name="main_cat_food">อาหาร</string>
     <string name="main_cat_store">ร้านค้า</string>
-    <string name="main_cat_personal">ส่วนตัว </string>
-    <string name="main_cat_sport">กีฬา </string>
+    <string name="main_cat_personal">ส่วนตัว</string>
+    <string name="main_cat_sport">กีฬา</string>
     <string name="main_cat_education">การศึกษา</string>
     <string name="main_cat_health">สุขภาพ </string>
     <string name="main_cat_room">ที่พัก</string>
@@ -466,7 +465,7 @@
     </string-array>
 
 
-    <!--    //CatId 01 Government//arrayOf("0100", "0101", "0102", "0104", "0105", "0106")-->
+    <!--   *** GOVERNMENT *********-->
 
     <!--    Code ID-->
     <string-array name="cat_government_id">
@@ -488,8 +487,8 @@
     </string-array>
 
 
-    <!--   CatId 02 Food arrayOf("24", "148", "26", "27", "28", "152", "30", "124", "147", "25", "149", "100", "150", "165", "164",-->
-    <!--    "166", "231", "29", "204", "205", "212", "208", "220", "216", "229", "237", "238", "248", "247","17")-->
+    <!--   *** FOOD *********-->
+
 
     <!--    Code ID-->
     <string-array name="cat_food_id">
@@ -527,14 +526,11 @@
         <item>220</item> <!-- ;ผัดไทย  -->
         <item>231</item> <!-- ;ขนมจีน  -->
         <item>208</item> <!-- ;คาเฟ่ 24HR  -->
-        <item>273</item> <!-- ;เเต่าบิน -->
         <item>272</item> <!-- ;หมูสะเต๊ะ  -->
         <item>271</item> <!-- ;ข้าวมันไก่  -->
         <item>270</item> <!-- ;ข้าวขาหมู  -->
-
         <item>268</item> <!-- ;ขนมหวาน -->
-
-
+        <item>273</item> <!-- ;เเต่าบิน -->
 
 
     </string-array>
@@ -544,7 +540,7 @@
 
 
         <item>บุฟเฟ่ต์</item>
-        <item>ปิ้งย่าง/จุ่ม</item>
+        <item>ปิ้งย่าง</item>
         <item>สุกี้/หม้อไฟ</item>
         <item>ชาบู</item>
         <item>เบเกอรี่</item>
@@ -575,36 +571,33 @@
         <item>ผัดไทย</item>
         <item>ขนมจีน</item>
         <item>คาเฟ่ 24HR</item>
-        <item>เต่าบิน</item>
         <item>หมูสะเต๊ะ</item>
         <item>ข้าวมันไก่</item>
         <item>ข้าวขาหมู</item>
-
         <item>ขนมหวาน</item>
+        <item>เต่าบิน</item>
 
 
     </string-array>
 
-    <!--  CatId  "04" SHOP -> {-->
-    <!--    arrayOf("31", "18", "32", "8", "93", "34", "155", "187", "162", "156", "163", "218", "239", "244", "243")-->
-    <!--    }-->
+    <!--   *** SHOP *********-->
     <string-array name="cat_shop_id">
 
 
         <item>31</item> <!-- ;ตลาด -->
         <item>156</item> <!-- ;ตลาดนัด-->
         <item>8</item> <!-- ;ซุปเปอร์มาร์เกต-->
-        <item>93</item> <!-- ;เซเว่นอีเลเว่น-->
+        <item>155</item> <!-- ;ชอปปิ้งมอลล์-->
         <item>18</item> <!-- ;มินิมาร์ท-->
+        <item>93</item> <!-- ;เซเว่นอีเลเว่น-->
+        <item>162</item> <!-- ;ไก่ห้าดาว-->
         <item>218</item> <!-- ; อาหารสด-->
         <item>187</item> <!-- ;อาหารแช่แช็ง-->
         <item>34</item> <!-- ;วัตตถุดิบทั่วไป-->
-        <item>155</item> <!-- ;ชอปปิ้งมอลล์-->
         <item>163</item> <!-- ;คอมมูนิตี้มอลล์-->
-        <item>162</item> <!-- ;ไก่ห้าดาว-->
         <item>32</item> <!-- ; ขายของชำ-->
         <item>243</item> <!-- ;ผัก/ผลไม้-->
-        <item>244</item > <!-- ;ขายข้าว-->
+        <item>244</item> <!-- ;ขายข้าว-->
         <item>239</item> <!-- ;สตรีทฟู้ด-->
 
     </string-array>
@@ -615,14 +608,14 @@
         <item>ตลาด</item>
         <item>ตลาดนัด</item>
         <item>ซุปเปอร์มาร์เกต</item>
-        <item>เซเว่นอีเลเว่น</item>
+        <item>ชอปปิ้งมอลล์</item>
         <item>มินิมาร์ท</item>
+        <item>เซเว่นอีเลเว่น</item>
+        <item>ไก่ห้าดาว</item>
         <item>อาหารสด</item>
         <item>อาหารแช่แช็ง</item>
         <item>วัตถุดิบทั่วไป</item>
-        <item>ชอปปิ้งมอลล์</item>
         <item>คอมมูนิตี้มอลล์</item>
-        <item>ไก่ห้าดาว</item>
         <item>ร้านขายของชำ</item>
         <item>ผัก/ผลไม้</item>
         <item>ร้านขายข้าว</item>
@@ -631,9 +624,7 @@
     </string-array>
 
 
-    <!--    "05" Personal -> {-->
-    <!--    arrayOf("35", "102", "36", "37", "38", "123", "153", "154", "197", "199", "228")-->
-    <!--    }-->
+    <!--*******Personal**************** -->
 
     <string-array name="cat_personal_id">
 
@@ -661,7 +652,7 @@
         <item>เครื่องสำอางค์</item>
         <item>เสื้อผ้ามือสอง</item>
         <item>ชุดเช่า</item>
-        <item>ตัดเสื้อ/ซ่อม</item>
+        <item>ห้องเสื้อ-ตัดชุด</item>
         <item>แม่และเด็ก</item>
         <item>นวด/สปา</item>
         <item>เสริมสวย</item>
@@ -672,11 +663,9 @@
     </string-array>
 
 
-    <!--    "06" Sport-> {-->
-    <!--    arrayOf("47", "40", "41", "42", "43", "44", "201", "213", "214", "215","250","249")-->
-    <!--    }-->
+    <!--   ****** Sport-> ****************-->
 
-    <string-array name="cat_sport_id">
+ <string-array name="cat_sport_id">
 
         <item>250</item> <!-- ;ออกกำลังกาย  -->
         <item>40</item> <!-- ;อุปกรณ์กีฬา  -->
@@ -711,9 +700,8 @@
     </string-array>
 
 
-    <!--    "07" Education-> {-->
-    <!--    arrayOf("122", "144", "176", "175", "169", "168", "174", "211", "256")-->
-    <!--    }-->
+    <!--    ******* Education-> *****************-->
+
     <string-array name="cat_education_id">
         <item>175</item>
         <item>168</item>
@@ -739,10 +727,8 @@
         <item>ดนตรี/เต้น</item>
     </string-array>
 
-    <!--    "08" -> Health {-->
-    <!--    arrayOf("53", "48", "99", "49", "50", "51", "111", "52", "114", "181", "180", "179", "178", "177", "202",-->
-    <!--    "203", "217", "232", "226")-->
-    <!--    }-->
+    <!--    ****** Health ************-->
+*
 
     <string-array name="cat_health_id">
         <item>114</item> <!-- ;โรงพยาบาล   -->
@@ -791,9 +777,8 @@
     </string-array>
 
 
-    <!--    "09" -> Hotel {-->
-    <!--    arrayOf("84", "94", "56", "57", "59", "55", "193", "58", "182")-->
-    <!--    }-->
+    <!--   *************Residence *************-->
+
 
     <string-array name="cat_room_id">
         <item>94</item>
@@ -814,99 +799,93 @@
         <item>โฮสเทล</item>
         <item>โรงแรม</item>
         <item>อพาร์ทเมนท์</item>
-        <item>ห้องเช่า หอพัก</item>
+        <item>หอพัก</item>
         <item>หมู่บ้านจัดสรร</item>
         <item>คอนโดมีเนียม</item>
         <item>รีสอร์ท</item>
-        <item>อื่นๆ</item>
+        <item>ที่พัก อื่นๆ</item>
     </string-array>
 
 
-    <!--    "10" Auto-> {-->
-    <!--    arrayOf("68", "61", "66", "64", "65", "113", "67", "63", "70", "120", "127", "146", "83", "224", "245", "251")-->
-    <!--    }-->
+    <!--   **********Vehicle **********-->
 
     <string-array name="cat_auto_id">
-        <item>113</item>
-        <item>120</item>
-        <item>64</item>
-        <item>68</item>
-        <item>146</item>
-        <item>127</item>
-        <item>61</item>
-        <item>63</item>
-        <item>67</item>
-        <item>66</item>
-        <item>65</item>
-        <item>83</item>
-        <item>70</item>
-        <item>224</item>
-        <item>245</item>
-        <item>251</item>
-        <item>264</item>
-        <item>263</item>
+        <item>113</item><!--ปั๊มน้ำมัน-->
+        <item>120</item><!--ปั๊มแก๊ส-->
+        <item>251</item><!--สถานีชาร์จ-->
+        <item>245</item><!--ปั๊มหยอดเหรียญ-->
+        <item>64</item><!--ซ่อมรถยนต์-->
+        <item>68</item><!--โชว์รูมรถยนต์-->
+        <item>146</item><!--ซ่อมมอเตอร์ไซค์-->
+        <item>127</item><!--มอเตอร์ไซต์-->
+        <item>61</item><!--ยาง-->
+        <item>63</item><!--ประดับยนต์-->
+        <item>67</item><!--รถให้เช่า-->
+        <item>66</item><!--รถมือสอง-->
+        <item>65</item><!--ล้างอัดฉีด-->
+        <item>70</item><!--จักรยาน-->
+        <item>224</item><!--อะไหล่ยนต์-->
+        <item>264</item><!--แบตเตอรี่รถ-->
+        <item>263</item><!--ตรวจสภาพรถ-->
+        <item>83</item><!--บริการยานยนต์-->
     </string-array>
 
     <!--    Name-->
     <string-array name="cat_auto_name">
         <item>ปั๊มน้ำมัน</item>
         <item>ปั๊มแก๊ส</item>
+        <item>สถานีชาร์จ</item>
+        <item>ปั๊มหยอดเหรียญ</item>
         <item>ซ่อมรถยนต์</item>
         <item>โชว์รูมรถยนต์</item>
         <item>ซ่อมมอเตอร์ไซค์</item>
-        <item>มอเตอร์ไซต์</item>
-        <item>ยาง</item>
+        <item>โชว์รูมมอเตอร์ไซต์</item>
+        <item>ร้านยาง</item>
         <item>ประดับยนต์</item>
         <item>รถให้เช่า</item>
         <item>รถมือสอง</item>
         <item>ล้างอัดฉีด</item>
-        <item>บริการยานยนต์</item>
         <item>จักรยาน</item>
         <item>อะไหล่ยนต์</item>
-        <item>ปั๊มหยอดเหรียญ</item>
-        <item>สถานีชาร์จ</item>
-        <item>แบตเตอรี่รถ </item>
+        <item>แบตเตอรี่รถ</item>
         <item>ตรวจสภาพรถ</item>
+        <item>บริการยานยนต์</item>
     </string-array>
 
 
-    <!--    "11" ->  Business{-->
-    <!--    arrayOf("82", "73", "74", "75", "78", "79", "80", "81", "95", "62", "119", "118",-->
-    <!--    "72", "125", "121", "196", "195", "19", "22", "13", "14", "16", "206", "223",-->
-    <!--    "222", "15", "234", "235", "236", "255")-->
-    <!--    }-->
+    <!--    ******* Business***********-->
 
     <string-array name="cat_business_id">
-        <item>195</item>
-        <item>234</item>
-        <item>235</item>
-        <item>236</item>
-        <item>95</item>
-        <item>222</item>
-        <item>206</item>
-        <item>16</item>
-        <item>223</item>
-        <item>62</item>
-        <item>72</item>
-        <item>15</item>
-        <item>19</item>
-        <item>73</item>
-        <item>74</item>
-        <item>13</item>
-        <item>79</item>
-        <item>78</item>
-        <item>121</item>
-        <item>80</item>
-        <item>81</item>
-        <item>118</item>
-        <item>119</item>
-        <item>14</item>
-        <item>196</item>
-        <item>75</item>
-        <item>125</item>
-        <item>82</item>
-        <item>255</item>
-        <item>22</item>
+        <item>195</item><!--สินค้าเบ็ดเตล็ด-->
+        <item>234</item><!--กิ๊ฟช็อป-->
+        <item>235</item><!--นาฬิกา-->
+        <item>236</item><!--ของเล่น-->
+        <item>95</item><!--ถ่ายภาพ-->
+        <item>222</item><!--อุปกรณ์มือถือ-->
+        <item>206</item><!--คอมพิวเตอร์-->
+        <item>16</item><!--อุปกรณ์ไฟฟ้า-->
+        <item>223</item><!--กรอบรูป-->
+        <item>62</item><!--กุญแจ-->
+        <item>72</item><!--ดนตรี-->
+        <item>15</item><!--เฟอร์นิเจอร์-->
+        <item>19</item><!--ตกแต่งภายใน-->
+        <item>73</item><!--เครื่องเขียน-->
+        <item>74</item><!--ก่อสร้าง-->
+        <item>13</item><!--วัสดุภัณฑ์-->
+        <item>79</item><!--ถ่ายเอกสาร-->
+        <item>78</item><!--แปลภาษา-->
+        <item>121</item><!--หนังสือ-->
+        <item>80</item><!--สิ่งพิมพ์-->
+        <item>81</item><!--อุปกรณ์ช่าง-->
+        <item>118</item><!--การเกษตร-->
+        <item>119</item><!--ดอกไม้-->
+        <item>14</item><!--ตกแต่งสวน-->
+        <item>196</item><!--เครื่องครัว-->
+        <item>75</item><!--เครื่องประดับ-->
+        <item>125</item><!--สังฆภัณฑ์-->
+        <item>255</item><!--โกดังญี่ปุ่น-->
+        <item>22</item><!--เกี่ยวกับที่พักอาศัย-->
+        <item>82</item><!--ธุรกิจทั่วไป-->
     </string-array>
 
     <!--    Name-->
@@ -915,13 +894,13 @@
         <item>กิ๊ฟช็อป</item>
         <item>นาฬิกา</item>
         <item>ของเล่น</item>
-        <item>ถ่ายภาพ</item>
+        <item>ถ่ายภาพ/ถ่ายรูป</item>
         <item>อุปกรณ์มือถือ</item>
         <item>คอมพิวเตอร์</item>
         <item>อุปกรณ์ไฟฟ้า</item>
-        <item>กรอบรูป</item>
+        <item>ร้านกรอบรูป</item>
         <item>กุญแจ</item>
-        <item>ดนตรี</item>
+        <item>ดนตรี/เครื่องเสียง</item>
         <item>เฟอร์นิเจอร์</item>
         <item>ตกแต่งภายใน</item>
         <item>เครื่องเขียน</item>
@@ -933,63 +912,65 @@
         <item>สิ่งพิมพ์</item>
         <item>อุปกรณ์ช่าง</item>
         <item>การเกษตร</item>
-        <item>ดอกไม้</item>
+        <item>ร้านดอกไม้</item>
         <item>ตกแต่งสวน</item>
         <item>เครื่องครัว</item>
         <item>เครื่องประดับ</item>
-        <item>สังฆภัณฑ์</item>
-        <item>ทั่วไป</item>
+        <item>ของใช้พิธีทางศาสนา</item>
         <item>โกดังญี่ปุ่น</item>
-        <item>ที่พักอาศัย</item>
+        <item>เกี่ยวกับที่พักอาศัย</item>
+        <item>ธุรกิจทั่วไป</item>
     </string-array>
 
 
-    <!--    "12" ->  Services {-->
+    <!--   ************* Services ***************-->
     <string-array name="cat_services_id">
-        <item>109</item>
-        <item>173</item>
-        <item>171</item>
-        <item>170</item>
-        <item>145</item>
-        <item>126</item>
-        <item>2</item>
-        <item>183</item>
-        <item>184</item>
-        <item>200</item>
-        <item>172</item>
-        <item>198</item>
-        <item>77</item>
-        <item>87</item>
-        <item>185</item>
-        <item>115</item>
-        <item>186</item>
-        <item>110</item>
-        <item>194</item>
-        <item>240</item>
-        <item>207</item>
-        <item>76</item>
-        <item>209</item>
-        <item>219</item>
-        <item>225</item>
-        <item>227</item>
-        <item>230</item>
-        <item>242</item>
-        <item>241</item>
-        <item>7</item>
-        <item>108</item>
-        <item>86</item>
-        <item>266</item>
-        <item>267</item>
+        <item>145</item> <!-- ศูนย์บริการ -->
+        <item>109</item> <!-- พัสดุเอกชน-->
+        <item>266</item> <!--ร้านสะดวกซัก-->
+        <item>186</item><!--บริการจอดรถ-->
+        <item>173</item> <!--AIS -->
+        <item>171</item> <!-- True -->
+        <item>170</item>  <!-- Dtac -->
+        <item>126</item>  <!--ซักอบรีด -->
+        <item>2</item> <!--ประปา-->
+        <item>183</item><!--อาบน้ำสัตว์-->
+        <item>184</item><!--อุปกรณ์สัตว์-->
+        <item>200</item><!--บัญชี-->
+        <item>172</item><!--รปภ-->
+        <item>198</item><!--เวดดิ้งสตูดิโอ-->
+        <item>77</item><!--บริการงานช่าง-->
+        <item>87</item><!--อาร์ตแกลเลอรี่-->
+        <item>185</item><!--ประกันภัย-->
+        <item>115</item><!--บริการห้องน้ำ-->
+        <item>110</item><!--ตู้ซักผ้าเหรียญ-->
+        <item>194</item><!--ตู้น้ำเหรียญ-->
+        <item>240</item><!--หวย-->
+        <item>207</item><!--ซอฟท์แวร์-->
+        <item>76</item><!--ทนาย-->
+        <item>209</item><!--ส่งแก๊ส-->
+        <item>219</item><!--ร้านเกม-->
+        <item>225</item><!--มูลนิธิ-->
+        <item>227</item><!--โรงภาพยนตร์-->
+        <item>230</item><!--โคเวิร์คกิ้งสเปซ-->
+        <item>242</item><!--น้ำแข็ง-->
+        <item>241</item><!--รีไซเคิล-->
+        <item>7</item><!--พิพิธภัณฑ์-->
+        <item>267</item> <!--ซ่อมเครื่องใช้ไฟฟ้า-->
+        <item>108</item><!--ตู้ไปรษณีย์-->
+        <item>86</item><!--บริการทั่วไป-->
 
     </string-array>
 
     <!--    Name-->
     <string-array name="cat_service_name">
+        <item>ศูนย์บริการ</item>
         <item>พัสดุเอกชน</item>
+        <item>ร้านสะดวกซัก</item>
+        <item>บริการจอด/ฝากรถ</item>
         <item>เอไอเอส</item>
         <item>ทรู</item>
         <item>ดีแทค</item>
-        <item>ศูนย์บริการ</item>
         <item>ซักอบรีด</item>
         <item>ประปา</item>
         <item>อาบน้ำสัตว์</item>
@@ -1001,7 +982,7 @@
         <item>อาร์ตแกลเลอรี่</item>
         <item>ประกันภัย</item>
         <item>บริการห้องน้ำ</item>
-        <item>บริการจอดรถ</item>
+
         <item>ตู้ซักผ้าเหรียญ</item>
         <item>ตู้น้ำเหรียญ</item>
         <item>หวย</item>
@@ -1012,20 +993,15 @@
         <item>มูลนิธิ</item>
         <item>โรงภาพยนตร์</item>
         <item>โคเวิร์คกิ้งสเปซ</item>
-        <item>น้ำแข็ง</item>
+        <item>บริการน้ำแข็ง</item>
         <item>รีไซเคิล</item>
         <item>พิพิธภัณฑ์</item>
+        <item>ซ่อมเครื่องใช้ไฟฟ้า</item>
         <item>ตู้ไปรษณีย์</item>
         <item>บริการทั่วไป</item>
-        <item>ร้านสะดวกซัก</item>
-        <item>ซ่อมเครื่องใช้ไฟฟ้า</item>
     </string-array>
 
-    <!--    -->
-    <!--    "13" Finance-> {-->
-    <!--    arrayOf("89", "90", "91", "128", "130", "135", "131", "129", "132", "133", "188", "189", "190", "134",-->
-    <!--    "191", "252", "253", "137", "138", "139", "140", "136", "141", "143", "90", "90", "90", "142", "90", "192")-->
-    <!--    }-->
+    <!--  ***** Finance-> *****-->
 
     <string-array name="cat_finance_id">
         <item>129</item>
@@ -1069,11 +1045,11 @@
         <item>ออมสิน</item>
         <item>กสิกรไทย</item>
         <item>อิสลาม</item>
-        <item>ธกส</item>
+        <item>ธกส.</item>
         <item>ยูโอบี</item>
         <item>ซีไอเอ็มบี</item>
         <item>ทีเอ็มบีธนชาต</item>
-        <item>ธ.อ.ส</item>
+        <item>ธอส.</item>
         <item>ไทยเครดิต</item>
         <item>ธนาคารอื่นๆ</item>
         <item>แลกเปลี่ยนเงิน</item>
@@ -1090,13 +1066,11 @@
         <item>ยูโอบี</item>
         <item>ซีไอเอ็มบี</item>
         <item>ทีเอ็มบีธนชาต</item>
-        <item>อื่นๆ </item>
+        <item>ATM อื่นๆ </item>
     </string-array>
 
 
-    <!--    "14" -> Region {-->
-    <!--    arrayOf("97", "98", "112", "254", "160")-->
-    <!--    }-->
+    <!--   *****Religion ***********-->
     <string-array name="cat_religion_id">
         <item>97</item>
         <item>98</item>
@@ -1115,9 +1089,8 @@
     </string-array>
 
 
-    <!--    "15" -> transport {-->
-    <!--    arrayOf("107", "106", "104", "117", "105", "161", "246")-->
-    <!--    }-->
+    <!--  ******* transport *************-->
+
 
     <string-array name="cat_transport_id">
         <item>107</item>
@@ -1141,9 +1114,8 @@
     </string-array>
 
 
-    <!--    "16" -> Travel {-->
-    <!--    arrayOf("210", "159", "158", "221")-->
-    <!--    }-->
+    <!--   *****Travel ***********-->
+
     <string-array name="cat_travel_id">
         <item>221</item>
         <item>158</item>
@@ -1246,7 +1218,7 @@ https://www.cmhy.city/terms/  </p>
     <!--    ========== END  RULE DOCUMENT ========-->
 
     <string name="about_staff"><![CDATA[
-    <h4>STAFF </h4>
+    <h4>CREW </h4>
     <p><b>Back-End & APPS Programmer</b> <br> Passawet Noytachang</p>
     <p><b>Designer UX/UI & APPS Programmer</b> <br> Sudchay Kanchana</p>
     <p><b>Tester Support</b> <br> Ronnakorn Mahasawin </p>

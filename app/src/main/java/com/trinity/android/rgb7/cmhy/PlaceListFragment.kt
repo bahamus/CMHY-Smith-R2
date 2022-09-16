@@ -116,19 +116,20 @@ class PlaceListFragment : Fragment() {
                 response.body()?.let {
                     myAdapter.setData(it)
                 }
+                view.findViewById<RecyclerView>(R.id.recyclerView)?.run {
+                    setHasFixedSize(true)
+                    //  ===  LIST VIEW Adapter ========
+                    adapter = myAdapter
+                    layoutManager = LinearLayoutManager(context)
+                }
+                /**  END Recycler Place List Json  */
             } else {
+                view.findViewById<RecyclerView>(R.id.recyclerView).isEnabled = false
                 view.findViewById<TextView>(R.id.text_response_error).isVisible
             }
 
         })
 
-        view.findViewById<RecyclerView>(R.id.recyclerView)?.run {
-            setHasFixedSize(true)
-            //  ===  LIST VIEW Adapter ========
-            adapter = myAdapter
-            layoutManager = LinearLayoutManager(context)
-        }
-        /**  END Recycler Place List Json  */
 
     }
 

@@ -130,19 +130,20 @@ class SearchFragment : Fragment() {
                         Log.d("Response", it.ID.toString())
                     }
                 }
+                view.findViewById<RecyclerView>(R.id.recyclerView)?.run {
+                    setHasFixedSize(true)
+                    //  ===  LIST VIEW Adapter ========
+                    adapter = myAdapter
+                    layoutManager = LinearLayoutManager(context)
+                }
+                /**  END Recycler Searching Json  */
             } else {
+                view.findViewById<RecyclerView>(R.id.recyclerView).isEnabled = false
                 Log.d("Response", "UnSucces!!")
             }
 
         })
 
-        view.findViewById<RecyclerView>(R.id.recyclerView)?.run {
-            setHasFixedSize(true)
-            //  ===  LIST VIEW Adapter ========
-            adapter = myAdapter
-            layoutManager = LinearLayoutManager(context)
-        }
-        /**  END Recycler Searching Json  */
 
 
 

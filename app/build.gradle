@@ -26,7 +26,7 @@ android {
         applicationId 'com.trinity.android.rgb7.cmhy'
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 102001
+        versionCode 102101
         versionName '1.2.0'
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         versionNameSuffix appCompatVersion

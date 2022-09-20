@@ -15,10 +15,10 @@
 
 <resources>
     <string name="app_name">CMHY</string>
-    <string name="app_version">1.2.0  (Build 102201) </string>
+    <string name="app_version">1.2.1  (Build 102101) </string>
     <string name="app_codename">- Merovingian -</string>
-    <string name="main_text">1.2.0</string>
-    <string name="apo_version_html"><![CDATA[ <b>Version</b> 1.2.0 (Build 102201) ]]></string>
+    <string name="main_text">1.2.1</string>
+    <string name="apo_version_html"><![CDATA[ <b>Version</b> 1.2.1 (Build 102101) ]]></string>
 
 
     <!-- Menu strings -->
@@ -1118,9 +1118,9 @@
 
     <string-array name="cat_travel_id">
         <item>221</item>
-        <item>158</item>
-        <item>159</item>
         <item>210</item>
+        <item>159</item>
+        <item>158</item>
     </string-array>
 
     <!--    Name-->
